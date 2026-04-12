@@ -597,13 +597,26 @@
         }
 
         function filterAndDisplay() {
-            let filtered = allDeals;
+            const now = dayjs();
+            let filtered = allDeals.filter(d => {
+                if (!d.expiryDate) return true; // Keep deals without expiry (assume active)
+                
+                // Some Steam dates are like "Apr 13 @ 10:00am"
+                // Dayjs handles this but we should check if it's already in the past
+                const end = dayjs(d.expiryDate);
+                if (!end.isValid()) return true;
+                
+                // If it's the "Apr 13 @ 10:00am" format, it might be tricky
+                // But generally, if dayjs says it's before now, it's expired.
+                return end.isAfter(now);
+            });
+
             if (currentFilter === 'Mobile') {
-                filtered = allDeals.filter(d => d.platform.includes('Google') || d.platform.includes('Apple'));
+                filtered = filtered.filter(d => d.platform.includes('Google') || d.platform.includes('Apple'));
             } else if (currentFilter === 'Console') {
-                filtered = allDeals.filter(d => ['PlayStation', 'Xbox', 'Nintendo'].includes(d.platform));
+                filtered = filtered.filter(d => ['PlayStation', 'Xbox', 'Nintendo'].includes(d.platform));
             } else if (currentFilter !== 'all') {
-                filtered = allDeals.filter(d => d.platform.includes(currentFilter));
+                filtered = filtered.filter(d => d.platform.includes(currentFilter));
             }
             displayDeals(filtered);
         }
