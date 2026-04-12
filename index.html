@@ -530,8 +530,8 @@
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
                 const data = await response.json();
-                allDeals = data.deals;
-                lastUpdated.textContent = dayjs(data.lastUpdated).fromNow();
+                allDeals = data.deals || (Array.isArray(data) ? data : []);
+                lastUpdated.textContent = data.lastUpdated ? dayjs(data.lastUpdated).fromNow() : 'Just now';
 
                 filterAndDisplay(); // Use the function that applies the current filter
             } catch (error) {
