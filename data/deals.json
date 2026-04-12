@@ -1,6 +1,26 @@
 {
-  "lastUpdated": "2026-04-12T06:09:49.803Z",
+  "lastUpdated": "2026-04-12T06:10:46.653Z",
   "deals": [
+    {
+      "title": "TOMAK: Save the Earth Regeneration",
+      "platform": "Epic Games",
+      "originalPrice": "$8.99",
+      "link": "https://store.epicgames.com/en-US/p/tomak-save-the-earth-regeneration-c1207c",
+      "category": "Game",
+      "startDate": "2026-04-02T00:00:00.000Z",
+      "expiryDate": "2026-04-16T15:00:00.000Z",
+      "imageUrl": "https://cdn1.epicgames.com/spt-assets/603c0097f96047c38bc199331b5cf95b/tomak--save-the-earth-regeneration-l1n5k.png"
+    },
+    {
+      "title": "Prop Sumo",
+      "platform": "Epic Games",
+      "originalPrice": "$9.99",
+      "link": "https://store.epicgames.com/en-US/p/propsumo-ca8bd7",
+      "category": "Game",
+      "startDate": "2026-04-09T15:00:00.000Z",
+      "expiryDate": "2026-04-16T15:00:00.000Z",
+      "imageUrl": "https://cdn1.epicgames.com/spt-assets/a965174568cb492ca3ebbe7a95886261/propsumo-jc5go.png"
+    },
     {
       "title": "Graveyard Keeper",
       "platform": "Steam",
