@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-12T05:46:53.161Z",
+  "lastUpdated": "2026-04-12T05:52:26.199Z",
   "deals": [
     {
       "title": "TOMAK: Save the Earth Regeneration",
@@ -38,82 +38,6 @@
       "category": "Game",
       "imageUrl": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3027490/header.jpg",
       "expiryDate": "Apr 13 @ 10:00am"
-    },
-    {
-      "title": "PlayStation Plus Monthly Games for April: Lords of the Fallen, Tomb Raider I-III Remastered, Sword Art Online Fractured Daydream",
-      "platform": "PlayStation",
-      "originalPrice": "N/A",
-      "link": "https://blog.playstation.com/2026/04/01/playstation-plus-monthly-games-for-april-lords-of-the-fallen-tomb-raider-i-iii-remastered-sword-art-online-fractured-daydream/",
-      "category": "Subscription Required",
-      "imageUrl": null
-    },
-    {
-      "title": "Can’t Download SAO Game from Essential?",
-      "platform": "PlayStation",
-      "originalPrice": "N/A",
-      "link": "https://www.reddit.com/r/PlayStationPlus/comments/1sivz1g/cant_download_sao_game_from_essential/",
-      "category": "Subscription Required",
-      "imageUrl": null
-    },
-    {
-      "title": "All the DLCs for Graveyard Keeper are currently on sale at 80% off for PS Plus members. The base version of the game is FREE to claim for all players till April 13, 2026.",
-      "platform": "PlayStation",
-      "originalPrice": "N/A",
-      "link": "https://i.redd.it/vpse4tdcebug1.png",
-      "category": "Subscription Required",
-      "imageUrl": "https://i.redd.it/vpse4tdcebug1.png"
-    },
-    {
-      "title": "Short games from ESSENTIAL suggestions",
-      "platform": "PlayStation",
-      "originalPrice": "N/A",
-      "link": "https://www.reddit.com/r/PlayStationPlus/comments/1sglrlt/short_games_from_essential_suggestions/",
-      "category": "Subscription Required",
-      "imageUrl": null
-    },
-    {
-      "title": "April Essential games are now available in the EU, UK, AU, and India. They'll be live in the Americas in approximately 6 hours from the time of this post.",
-      "platform": "PlayStation",
-      "originalPrice": "N/A",
-      "link": "https://i.redd.it/bjcubac2wqtg1.jpeg",
-      "category": "Subscription Required",
-      "imageUrl": "https://i.redd.it/bjcubac2wqtg1.jpeg"
-    },
-    {
-      "title": "Stick - Remote Control TV Pro",
-      "rawTitle": "[Apps] Stick - Remote Control TV Pro ($2.99 -&gt; Free)",
-      "platform": "Google Play",
-      "originalPrice": "N/A",
-      "link": "https://play.google.com/store/apps/details?id=tv.remote.control.universal.smart.plus.tcl",
-      "category": "Software",
-      "imageUrl": "https://external-preview.redd.it/6Qqo2WnS8rf0vIYfW4bUonuOo7Q8ANACeAWGpc2o2AY.jpeg?width=140&amp;height=140&amp;auto=webp&amp;s=c5a447cfd6d5367f6ff7505d2f0ee544a223422b"
-    },
-    {
-      "title": "Reminder Pro",
-      "rawTitle": "[Apps] Reminder Pro ($3.75 -&gt; Free)",
-      "platform": "Google Play",
-      "originalPrice": "N/A",
-      "link": "https://play.google.com/store/apps/details?id=alarm.clock.calendar.reminder.pro",
-      "category": "Software",
-      "imageUrl": "https://external-preview.redd.it/z3QFjRID0c6FcNUj8qPXAQWIiyqPk_14o9axnDrMvZw.png?width=140&amp;height=140&amp;auto=webp&amp;s=443428dfc0438176b6be58578b476938fd071a16"
-    },
-    {
-      "title": "“Dumb Ways to Draw”  is currently available to claim for",
-      "rawTitle": "[iOS/Android - Epic Games Store] “Dumb Ways to Draw” (Ad-free version) is currently available to claim for free on the Epic Game Store for mobile. [$2.99–&gt; Free]",
-      "platform": "Epic Games",
-      "originalPrice": "N/A",
-      "link": "https://www.reddit.com/r/AppHookup/comments/1shz4vn/iosandroid_epic_games_store_dumb_ways_to_draw/",
-      "category": "Game",
-      "imageUrl": null
-    },
-    {
-      "title": "“Dumb Ways to Die 2: The Games”  is currently available to claim for",
-      "rawTitle": "[iOS/Android - Epic Games Store] “Dumb Ways to Die 2: The Games” (Ad-free version) is currently available to claim for free on the Epic Game Store for mobile. [$1.99–&gt; Free]",
-      "platform": "Epic Games",
-      "originalPrice": "N/A",
-      "link": "https://www.reddit.com/r/AppHookup/comments/1sbnqjg/iosandroid_epic_games_store_dumb_ways_to_die_2/",
-      "category": "Game",
-      "imageUrl": null
     }
   ]
 }
