@@ -443,9 +443,7 @@
             });
 
             if (currentFilter === 'Mobile') {
-                filtered = filtered.filter(d => d.platform.includes('Google') || d.platform.includes('Apple'));
-            } else if (currentFilter === 'Console') {
-                filtered = filtered.filter(d => ['PlayStation', 'Xbox', 'Nintendo'].includes(d.platform));
+                filtered = filtered.filter(d => d.platform.toLowerCase().includes('google') || d.platform.toLowerCase().includes('apple') || d.category === 'Mobile');
             } else if (currentFilter !== 'all') {
                 filtered = filtered.filter(d => d.platform.includes(currentFilter));
             }
