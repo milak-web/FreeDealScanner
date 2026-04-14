@@ -149,6 +149,44 @@
         const isGitHubPages = window.location.hostname.includes('github.io') || window.location.pathname.includes('/FreeDealScanner');
         let isStaticMode = isGitHubPages;
 
+        function parseDealExpiry(value) {
+            if (!value || typeof value !== 'string') return null;
+
+            const direct = new Date(value);
+            if (!Number.isNaN(direct.getTime())) return direct;
+
+            const clean = value.replace(/\s+/g, ' ').trim().toLowerCase();
+            const dayMonthMatch = clean.match(/^(\d{1,2})\s+([a-z]{3,9})\s*@\s*(\d{1,2}):(\d{2})\s*(am|pm)$/i);
+            const monthDayMatch = clean.match(/^([a-z]{3,9})\s+(\d{1,2})\s*@\s*(\d{1,2}):(\d{2})\s*(am|pm)$/i);
+            const match = dayMonthMatch || monthDayMatch;
+            if (!match) return null;
+
+            const months = {
+                jan: 0, feb: 1, mar: 2, apr: 3, may: 4, jun: 5,
+                jul: 6, aug: 7, sep: 8, sept: 8, oct: 9, nov: 10, dec: 11
+            };
+            const hasDayFirst = Boolean(dayMonthMatch);
+            const day = Number(hasDayFirst ? match[1] : match[2]);
+            const monthText = (hasDayFirst ? match[2] : match[1]).slice(0, 4).toLowerCase();
+            const month = months[monthText] ?? months[monthText.slice(0, 3)];
+            const hour12 = Number(match[3]);
+            const minute = Number(match[4]);
+            const ampm = match[5].toLowerCase();
+            if (month === undefined) return null;
+
+            let hour24 = hour12 % 12;
+            if (ampm === 'pm') hour24 += 12;
+
+            const now = new Date();
+            let year = now.getFullYear();
+            let parsed = new Date(year, month, day, hour24, minute, 0, 0);
+            if (parsed.getTime() < now.getTime() - (24 * 60 * 60 * 1000)) {
+                year += 1;
+                parsed = new Date(year, month, day, hour24, minute, 0, 0);
+            }
+            return Number.isNaN(parsed.getTime()) ? null : parsed;
+        }
+
         function updateWatchlistUI() {
             watchlistCount.innerText = watchlist.length;
             if (watchlist.length > 0) {
@@ -355,23 +393,52 @@
             refreshIcon.classList.add('animate-spin');
 
             try {
-                // Always fetch the static JSON file.
-                const response = await fetch('./data/deals.json?t=' + new Date().getTime()); // Add cache-busting
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
+                const cacheBust = 't=' + Date.now();
+                let data;
+
+                // On local/server mode, try live API first so "Scan Now" actually rescans.
+                if (!isStaticMode) {
+                    const liveResponse = await fetch('/api/deals?' + cacheBust);
+                    if (liveResponse.ok) {
+                        const liveDeals = await liveResponse.json();
+                        data = {
+                            lastUpdated: new Date().toISOString(),
+                            deals: Array.isArray(liveDeals) ? liveDeals : []
+                        };
+                    } else {
+                        throw new Error(`Live API failed with status ${liveResponse.status}`);
+                    }
+                } else {
+                    const response = await fetch('./data/deals.json?' + cacheBust);
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    data = await response.json();
                 }
-                const data = await response.json();
+
                 allDeals = data.deals || (Array.isArray(data) ? data : []);
                 lastUpdated.textContent = data.lastUpdated ? dayjs(data.lastUpdated).fromNow() : 'Just now';
 
                 filterAndDisplay(); // Use the function that applies the current filter
             } catch (error) {
                 console.error("Error fetching deals:", error);
-                dealsGrid.classList.add('hidden');
-                noDeals.classList.remove('hidden');
-                const noDealsMsg = noDeals.querySelector('p');
-                if (noDealsMsg) {
-                    noDealsMsg.innerText = "Offline/Static Mode: data/deals.json not found. Check GitHub Action status.";
+                // Fallback to static JSON when API is unavailable.
+                try {
+                    const fallback = await fetch('./data/deals.json?t=' + Date.now());
+                    if (!fallback.ok) throw new Error('Fallback static file unavailable');
+                    const fallbackData = await fallback.json();
+                    allDeals = fallbackData.deals || (Array.isArray(fallbackData) ? fallbackData : []);
+                    lastUpdated.textContent = fallbackData.lastUpdated ? dayjs(fallbackData.lastUpdated).fromNow() : 'Just now';
+                    isStaticMode = true;
+                    filterAndDisplay();
+                } catch (fallbackError) {
+                    console.error("Fallback error:", fallbackError);
+                    dealsGrid.classList.add('hidden');
+                    noDeals.classList.remove('hidden');
+                    const noDealsMsg = noDeals.querySelector('p');
+                    if (noDealsMsg) {
+                        noDealsMsg.innerText = "No live API or static data found.";
+                    }
                 }
             } finally {
                 loading.classList.add('hidden');
@@ -402,9 +469,10 @@
                 const expiry = el.getAttribute('data-expiry');
                 if (!expiry) return;
                 
-                const end = dayjs(expiry);
+                const parsedExpiry = parseDealExpiry(expiry);
+                const end = parsedExpiry ? dayjs(parsedExpiry.toISOString()) : dayjs(expiry);
                 
-                if (end.isValid() && !expiry.includes('@')) {
+                if (parsedExpiry || end.isValid()) {
                     const now = dayjs();
                     const diff = end.diff(now);
                     
@@ -428,18 +496,13 @@
         }
 
         function filterAndDisplay() {
-            const now = dayjs();
+            const now = new Date();
             let filtered = allDeals.filter(d => {
                 if (!d.expiryDate) return true; // Keep deals without expiry (assume active)
-                
-                // Some Steam dates are like "Apr 13 @ 10:00am"
-                // Dayjs handles this but we should check if it's already in the past
-                const end = dayjs(d.expiryDate);
-                if (!end.isValid()) return true;
-                
-                // If it's the "Apr 13 @ 10:00am" format, it might be tricky
-                // But generally, if dayjs says it's before now, it's expired.
-                return end.isAfter(now);
+
+                const parsed = parseDealExpiry(d.expiryDate);
+                if (!parsed) return false;
+                return parsed > now;
             });
 
             if (currentFilter === 'Mobile') {

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-12T17:35:10.129Z",
+  "lastUpdated": "2026-04-14T19:51:06.545Z",
   "deals": [
     {
       "title": "TOMAK: Save the Earth Regeneration",
@@ -20,24 +20,6 @@
       "startDate": "2026-04-09T15:00:00.000Z",
       "expiryDate": "2026-04-16T15:00:00.000Z",
       "imageUrl": "https://cdn1.epicgames.com/spt-assets/a965174568cb492ca3ebbe7a95886261/propsumo-jc5go.png"
-    },
-    {
-      "title": "Graveyard Keeper",
-      "platform": "Steam",
-      "originalPrice": "$10.49",
-      "link": "https://store.steampowered.com/app/599140/Graveyard_Keeper/",
-      "category": "Game",
-      "imageUrl": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/599140/header.jpg",
-      "expiryDate": "13 Apr @ 10:00am"
-    },
-    {
-      "title": "LivingForest",
-      "platform": "Steam",
-      "originalPrice": "$8.49",
-      "link": "https://store.steampowered.com/app/3027490/LivingForest/",
-      "category": "Game",
-      "imageUrl": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3027490/header.jpg",
-      "expiryDate": "13 Apr @ 10:00am"
     }
   ]
 }
