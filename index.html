@@ -52,6 +52,14 @@
             </div>
             
             <div class="flex flex-wrap items-center gap-4">
+                <div class="relative group">
+                    <input type="text" id="searchInput" placeholder="Search Game Prices..."
+                        class="bg-slate-800 border border-slate-700 text-slate-100 px-4 py-2 pl-10 rounded-lg text-xs font-bold focus:outline-none focus:border-yellow-500 transition-all w-64 uppercase tracking-widest"
+                        autocomplete="off">
+                    <i class="fas fa-search absolute left-3 top-1/2 -translate-y-1/2 text-slate-500 text-xs group-focus-within:text-yellow-500 transition-colors"></i>
+                    <div id="suggestionsDropdown" class="absolute top-full left-0 right-0 mt-2 bg-slate-900 border border-slate-700 rounded-lg shadow-2xl z-[60] hidden overflow-hidden"></div>
+                </div>
+
                 <div class="flex bg-slate-800 rounded-lg p-1 border border-slate-700">
                     <button onclick="setFilter('all')" id="filter-all" class="filter-btn active px-4 py-1.5 rounded-md text-xs font-bold uppercase tracking-widest transition">All</button>
                     <button onclick="setFilter('Epic Games')" id="filter-epic" class="filter-btn px-4 py-1.5 rounded-md text-xs font-bold uppercase tracking-widest transition">Epic</button>
@@ -93,6 +101,17 @@
             <div id="emptyWatchlist" class="text-center py-20 bg-slate-900/50 rounded-2xl border border-dashed border-slate-800 hidden">
                 <p class="text-slate-500 uppercase text-xs font-bold tracking-widest">Your watchlist is empty. Star some deals to save them here!</p>
             </div>
+        </div>
+
+        <div id="searchResultsSection" class="mb-16 hidden">
+            <div class="flex items-center justify-between mb-8">
+                <h2 class="text-xl font-black uppercase tracking-widest italic flex items-center gap-3">
+                    <i class="fas fa-search-dollar text-yellow-500"></i>
+                    Price Comparison <span class="text-slate-600 text-xs not-italic" id="searchQueryText"></span>
+                </h2>
+                <button onclick="clearSearch()" class="text-[10px] font-black uppercase tracking-[0.2em] text-slate-500 hover:text-white transition">Clear Search</button>
+            </div>
+            <div id="searchResultsGrid" class="grid grid-cols-1 xl:grid-cols-2 gap-8"></div>
         </div>
 
         <div id="stats" class="mb-10 flex flex-wrap items-center gap-4">
@@ -138,12 +157,18 @@
         const noDeals = document.getElementById('noDeals');
         const stats = document.getElementById('stats');
         const lastUpdated = document.getElementById('lastUpdated');
+        const searchInput = document.getElementById('searchInput');
+        const searchResultsSection = document.getElementById('searchResultsSection');
+        const searchResultsGrid = document.getElementById('searchResultsGrid');
+        const searchQueryText = document.getElementById('searchQueryText');
+        const suggestionsDropdown = document.getElementById('suggestionsDropdown');
         const refreshBtn = document.getElementById('refreshBtn');
         const refreshIcon = document.getElementById('refreshIcon');
         const watchlistSection = document.getElementById('watchlistSection');
         const watchlistGrid = document.getElementById('watchlistGrid');
         const emptyWatchlist = document.getElementById('emptyWatchlist');
         const watchlistCount = document.getElementById('watchlistCount');
+        let debounceTimer;
 
         // Robust environment detection for GitHub Pages
         const isGitHubPages = window.location.hostname.includes('github.io') || window.location.pathname.includes('/FreeDealScanner');
@@ -186,6 +211,67 @@
             }
             return Number.isNaN(parsed.getTime()) ? null : parsed;
         }
+
+        searchInput.addEventListener('input', (e) => {
+            const query = e.target.value.trim();
+            clearTimeout(debounceTimer);
+
+            if (query.length < 2) {
+                suggestionsDropdown.classList.add('hidden');
+                return;
+            }
+
+            debounceTimer = setTimeout(async () => {
+                try {
+                    let suggestions = [];
+                    if (isStaticMode) {
+                        const response = await fetch(`https://www.cheapshark.com/api/1.0/games?title=${encodeURIComponent(query)}&limit=5`);
+                        if (response.ok) {
+                            const data = await response.json();
+                            suggestions = data.map(g => g.external);
+                        }
+                    } else {
+                        const response = await fetch(`./api/suggestions?q=${encodeURIComponent(query)}`);
+                        if (response.ok) {
+                            suggestions = await response.json();
+                        } else {
+                            const csResponse = await fetch(`https://www.cheapshark.com/api/1.0/games?title=${encodeURIComponent(query)}&limit=5`);
+                            if (csResponse.ok) {
+                                const csData = await csResponse.json();
+                                suggestions = csData.map(g => g.external);
+                            }
+                        }
+                    }
+
+                    if (suggestions && suggestions.length > 0) {
+                        suggestionsDropdown.innerHTML = '';
+                        suggestions.forEach(suggestion => {
+                            const div = document.createElement('div');
+                            div.className = 'px-4 py-3 text-[10px] font-black uppercase tracking-widest text-slate-300 hover:bg-yellow-500 hover:text-slate-950 cursor-pointer border-b border-slate-800 last:border-0 transition-colors';
+                            div.innerText = suggestion;
+                            div.onclick = () => {
+                                searchInput.value = suggestion;
+                                suggestionsDropdown.classList.add('hidden');
+                                performSearch(suggestion);
+                            };
+                            suggestionsDropdown.appendChild(div);
+                        });
+                        suggestionsDropdown.classList.remove('hidden');
+                    } else {
+                        suggestionsDropdown.classList.add('hidden');
+                    }
+                } catch (err) {
+                    console.error('Suggestion error:', err);
+                    suggestionsDropdown.classList.add('hidden');
+                }
+            }, 300);
+        });
+
+        document.addEventListener('click', (e) => {
+            if (!searchInput.contains(e.target) && !suggestionsDropdown.contains(e.target)) {
+                suggestionsDropdown.classList.add('hidden');
+            }
+        });
 
         function updateWatchlistUI() {
             watchlistCount.innerText = watchlist.length;
@@ -369,6 +455,147 @@
             `;
             return card;
         }
+
+        async function performSearch(query) {
+            if (!query || query.length < 2) return;
+
+            try {
+                searchResultsSection.classList.remove('hidden');
+                searchQueryText.textContent = `// searching for "${query}"...`;
+                searchResultsGrid.innerHTML = `
+                    <div class="col-span-full py-20 flex flex-col items-center justify-center space-y-4">
+                        <div class="h-8 w-8 border-2 border-yellow-500 border-t-transparent animate-spin rounded-full"></div>
+                        <p class="text-[10px] font-black uppercase tracking-widest text-slate-500">Retrieving prices from authorized retailers...</p>
+                    </div>
+                `;
+
+                let results = [];
+                if (isStaticMode) {
+                    results = await performCheapSharkSearch(query);
+                } else {
+                    const response = await fetch(`./api/search?q=${encodeURIComponent(query)}`);
+                    if (response.ok) {
+                        results = await response.json();
+                    } else {
+                        results = await performCheapSharkSearch(query);
+                    }
+                }
+
+                if (!results || results.length === 0) {
+                    throw new Error('No results found');
+                }
+
+                searchQueryText.textContent = `// found ${results.length} ${results.length === 1 ? 'match' : 'matches'}`;
+                displaySearchResults(results);
+            } catch (error) {
+                console.error('Search Error:', error);
+                searchQueryText.textContent = `// ${error.message || 'error searching'}`;
+                displaySearchResults([]);
+            }
+        }
+
+        async function performCheapSharkSearch(query) {
+            const results = [];
+            const gamesResponse = await fetch(`https://www.cheapshark.com/api/1.0/games?title=${encodeURIComponent(query)}&limit=6`);
+            if (gamesResponse.ok) {
+                const games = await gamesResponse.json();
+
+                const storeMap = {
+                    "1": "Steam", "2": "GamersGate", "3": "GreenManGaming", "7": "GOG",
+                    "11": "Humble Store", "13": "Ubisoft Connect", "15": "Fanatical",
+                    "21": "WinGameStore", "23": "GameBillet", "25": "Epic Games Store",
+                    "27": "Gamesplanet", "28": "Gamesload", "29": "2Game", "30": "IndieGala",
+                    "35": "DreamGame"
+                };
+
+                for (const game of games) {
+                    try {
+                        const infoResponse = await fetch(`https://www.cheapshark.com/api/1.0/games?id=${game.gameID}`);
+                        if (infoResponse.ok) {
+                            const info = await infoResponse.json();
+                            const deals = info.deals.map(d => ({
+                                store: storeMap[d.storeID] || "Other Authorized Store",
+                                price: `$${d.price}`,
+                                retailPrice: `$${d.retailPrice}`,
+                                savings: `${Math.round(parseFloat(d.savings))}%`,
+                                link: `https://www.cheapshark.com/redirect?dealID=${d.dealID}`
+                            })).sort((a, b) => parseFloat(a.price.replace('$', '')) - parseFloat(b.price.replace('$', '')));
+
+                            results.push({
+                                gameID: game.gameID,
+                                title: game.external,
+                                imageUrl: game.thumb,
+                                cheapestPriceEver: `$${info.cheapestPriceEver?.price || 'N/A'}`,
+                                deals
+                            });
+                        }
+                    } catch (e) {
+                        console.error('Error fetching game info:', e);
+                    }
+                }
+            }
+            return results;
+        }
+
+        function displaySearchResults(results) {
+            if (!results || results.length === 0) {
+                searchResultsGrid.innerHTML = `
+                    <div class="col-span-full py-10 text-center border border-dashed border-slate-800 rounded-2xl">
+                        <p class="text-xs font-bold uppercase tracking-widest text-slate-600 italic">No reliable data found for this target</p>
+                    </div>
+                `;
+                return;
+            }
+
+            searchResultsGrid.innerHTML = '';
+            results.forEach(game => {
+                const card = document.createElement('div');
+                card.className = 'bg-slate-900/50 border border-slate-800 rounded-2xl p-6 flex flex-col sm:flex-row gap-6 hover:border-yellow-500/30 transition-all overflow-hidden';
+                const topDeals = game.deals.slice(0, 8);
+
+                card.innerHTML = `
+                    <div class="w-32 h-44 flex-shrink-0 bg-slate-800 rounded-xl overflow-hidden shadow-2xl mx-auto sm:mx-0">
+                        <img src="${game.imageUrl}" class="w-full h-full object-cover" onerror="this.src='https://via.placeholder.com/150x200/1e293b/64748b?text=N/A'">
+                    </div>
+                    <div class="flex-grow flex flex-col min-w-0">
+                        <div class="flex justify-between items-start mb-4 gap-4">
+                            <h3 class="text-sm font-black uppercase tracking-tight italic truncate" title="${game.title}">${game.title}</h3>
+                            <span class="text-[9px] font-black text-slate-600 uppercase bg-slate-800 px-2 py-0.5 rounded flex-shrink-0">ID: ${game.gameID}</span>
+                        </div>
+                        <div class="space-y-2 mb-4 overflow-y-auto max-h-48 pr-2 custom-scrollbar">
+                            ${topDeals.map(deal => `
+                                <div class="flex items-center justify-between group/row gap-4">
+                                    <span class="text-[10px] font-bold text-slate-400 uppercase tracking-tighter truncate" title="${deal.store}">${deal.store}</span>
+                                    <div class="flex items-center gap-3 flex-shrink-0">
+                                        <span class="text-[9px] font-black text-green-500/50 line-through">${deal.retailPrice}</span>
+                                        <span class="text-xs font-black text-slate-100 italic">${deal.price}</span>
+                                        <a href="${deal.link}" target="_blank" class="text-[10px] bg-slate-800 hover:bg-yellow-500 hover:text-slate-950 px-3 py-1 rounded font-black uppercase transition-colors">Buy</a>
+                                    </div>
+                                </div>
+                            `).join('')}
+                        </div>
+                        <div class="mt-auto pt-4 border-t border-slate-800 flex justify-between items-center gap-4">
+                            <div class="flex flex-col flex-shrink-0">
+                                <span class="text-[9px] font-black text-slate-600 uppercase tracking-widest">Cheapest Ever</span>
+                                <span class="text-xs font-black text-yellow-500 italic">${game.cheapestPriceEver}</span>
+                            </div>
+                            <span class="text-[9px] font-black text-green-500 uppercase tracking-widest flex-shrink-0">${game.deals[0]?.savings || '0%'} OFF</span>
+                        </div>
+                    </div>
+                `;
+                searchResultsGrid.appendChild(card);
+            });
+        }
+
+        function clearSearch() {
+            searchResultsSection.classList.add('hidden');
+            searchInput.value = '';
+            suggestionsDropdown.classList.add('hidden');
+        }
+
+        searchInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') performSearch(searchInput.value);
+        });
 
 
         function setFilter(filter) {
