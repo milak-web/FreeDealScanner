@@ -170,9 +170,10 @@
         const watchlistCount = document.getElementById('watchlistCount');
         let debounceTimer;
 
-        // Robust environment detection for GitHub Pages
-        const isGitHubPages = window.location.hostname.includes('github.io') || window.location.pathname.includes('/FreeDealScanner');
-        let isStaticMode = isGitHubPages;
+        // Static mode is for GitHub Pages or opening the file directly.
+        const isGitHubPages = window.location.hostname.includes('github.io');
+        let isStaticMode = isGitHubPages || window.location.protocol === 'file:';
+        let lastDealsPayload = null;
 
         function parseDealExpiry(value) {
             if (!value || typeof value !== 'string') return null;
@@ -181,6 +182,22 @@
             if (!Number.isNaN(direct.getTime())) return direct;
 
             const clean = value.replace(/\s+/g, ' ').trim().toLowerCase();
+            const utcStyleMatch = clean.match(/^(\d{1,2})\s+([a-z]{3,9})\s+(\d{4})\s*[–-]\s*(\d{1,2}):(\d{2}):(\d{2})\s*utc$/i);
+            if (utcStyleMatch) {
+                const months = { jan: 0, feb: 1, mar: 2, apr: 3, may: 4, jun: 5, jul: 6, aug: 7, sep: 8, sept: 8, oct: 9, nov: 10, dec: 11 };
+                const day = Number(utcStyleMatch[1]);
+                const monthText = utcStyleMatch[2].slice(0, 4).toLowerCase();
+                const month = months[monthText] ?? months[monthText.slice(0, 3)];
+                const year = Number(utcStyleMatch[3]);
+                const hour = Number(utcStyleMatch[4]);
+                const minute = Number(utcStyleMatch[5]);
+                const sec = Number(utcStyleMatch[6]);
+                if (month !== undefined) {
+                    const date = new Date(Date.UTC(year, month, day, hour, minute, sec, 0));
+                    if (!Number.isNaN(date.getTime())) return date;
+                }
+            }
+
             const dayMonthMatch = clean.match(/^(\d{1,2})\s+([a-z]{3,9})\s*@\s*(\d{1,2}):(\d{2})\s*(am|pm)$/i);
             const monthDayMatch = clean.match(/^([a-z]{3,9})\s+(\d{1,2})\s*@\s*(\d{1,2}):(\d{2})\s*(am|pm)$/i);
             const match = dayMonthMatch || monthDayMatch;
@@ -612,26 +629,39 @@
             filterAndDisplay();
         }
 
-        async function fetchDeals() {
-            loading.classList.remove('hidden');
-            dealsGrid.classList.add('hidden');
-            noDeals.classList.add('hidden');
-            refreshBtn.disabled = true;
-            refreshIcon.classList.add('animate-spin');
+        function renderLastUpdated(payload) {
+            if (!payload || !payload.lastUpdated) {
+                lastUpdated.textContent = 'Unknown';
+                return;
+            }
+
+            const relative = dayjs(payload.lastUpdated).fromNow();
+            const source = payload.source ? ` (${payload.source})` : '';
+            lastUpdated.textContent = `${relative}${source}`;
+        }
+
+        async function fetchDeals(options = {}) {
+            const force = Boolean(options.force);
+            const silent = Boolean(options.silent);
+
+            if (!silent) {
+                loading.classList.remove('hidden');
+                dealsGrid.classList.add('hidden');
+                noDeals.classList.add('hidden');
+                refreshBtn.disabled = true;
+                refreshIcon.classList.add('animate-spin');
+            }
 
             try {
                 const cacheBust = 't=' + Date.now();
                 let data;
 
-                // On local/server mode, try live API first so "Scan Now" actually rescans.
+                // In server mode, API handles cache and scheduled refresh. Force=true requests a fresh scan.
                 if (!isStaticMode) {
-                    const liveResponse = await fetch('/api/deals?' + cacheBust);
+                    const forceQuery = force ? '&force=1' : '';
+                    const liveResponse = await fetch('/api/deals?' + cacheBust + forceQuery);
                     if (liveResponse.ok) {
-                        const liveDeals = await liveResponse.json();
-                        data = {
-                            lastUpdated: new Date().toISOString(),
-                            deals: Array.isArray(liveDeals) ? liveDeals : []
-                        };
+                        data = await liveResponse.json();
                     } else {
                         throw new Error(`Live API failed with status ${liveResponse.status}`);
                     }
@@ -644,7 +674,8 @@
                 }
 
                 allDeals = data.deals || (Array.isArray(data) ? data : []);
-                lastUpdated.textContent = data.lastUpdated ? dayjs(data.lastUpdated).fromNow() : 'Just now';
+                lastDealsPayload = data;
+                renderLastUpdated(data);
 
                 filterAndDisplay(); // Use the function that applies the current filter
             } catch (error) {
@@ -655,7 +686,11 @@
                     if (!fallback.ok) throw new Error('Fallback static file unavailable');
                     const fallbackData = await fallback.json();
                     allDeals = fallbackData.deals || (Array.isArray(fallbackData) ? fallbackData : []);
-                    lastUpdated.textContent = fallbackData.lastUpdated ? dayjs(fallbackData.lastUpdated).fromNow() : 'Just now';
+                    lastDealsPayload = {
+                        ...fallbackData,
+                        source: 'static-fallback'
+                    };
+                    renderLastUpdated(lastDealsPayload);
                     isStaticMode = true;
                     filterAndDisplay();
                 } catch (fallbackError) {
@@ -668,9 +703,11 @@
                     }
                 }
             } finally {
-                loading.classList.add('hidden');
-                refreshBtn.disabled = false;
-                refreshIcon.classList.remove('animate-spin');
+                if (!silent) {
+                    loading.classList.add('hidden');
+                    refreshBtn.disabled = false;
+                    refreshIcon.classList.remove('animate-spin');
+                }
             }
         }
 
@@ -782,9 +819,10 @@
             });
         }
 
-        refreshBtn.addEventListener('click', fetchDeals);
+        refreshBtn.addEventListener('click', () => fetchDeals({ force: true }));
         setInterval(updateCountdown, 1000);
-        fetchDeals();
+        fetchDeals({ force: false });
+        setInterval(() => fetchDeals({ silent: true }), 5 * 60 * 1000);
         setFilter('all');
         updateNotifyUI();
         if (notificationsEnabled) scheduleDailyCheck();

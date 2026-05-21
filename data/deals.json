@@ -1,25 +1,25 @@
 {
-  "lastUpdated": "2026-04-14T19:51:06.545Z",
+  "lastUpdated": "2026-05-14T03:09:25.336Z",
   "deals": [
     {
-      "title": "TOMAK: Save the Earth Regeneration",
+      "title": "Arranger: A Role-Puzzling Adventure",
       "platform": "Epic Games",
-      "originalPrice": "$8.99",
-      "link": "https://store.epicgames.com/en-US/p/tomak-save-the-earth-regeneration-c1207c",
+      "originalPrice": "$19.99",
+      "link": "https://store.epicgames.com/en-US/p/arranger-a-rolepuzzling-adventure-dbfde7",
       "category": "Game",
-      "startDate": "2026-04-02T00:00:00.000Z",
-      "expiryDate": "2026-04-16T15:00:00.000Z",
-      "imageUrl": "https://cdn1.epicgames.com/spt-assets/603c0097f96047c38bc199331b5cf95b/tomak--save-the-earth-regeneration-l1n5k.png"
+      "startDate": "2026-05-07T15:00:00.000Z",
+      "expiryDate": "2026-05-14T15:00:00.000Z",
+      "imageUrl": "https://cdn1.epicgames.com/spt-assets/fee7dc25f12c4400a5182c864fd89c66/arranger-a-rolepuzzling-adventure-1dhii.jpg"
     },
     {
-      "title": "Prop Sumo",
+      "title": "Trash Goblin",
       "platform": "Epic Games",
-      "originalPrice": "$9.99",
-      "link": "https://store.epicgames.com/en-US/p/propsumo-ca8bd7",
+      "originalPrice": "$19.99",
+      "link": "https://store.epicgames.com/en-US/p/trash-goblin-cd5fd7",
       "category": "Game",
-      "startDate": "2026-04-09T15:00:00.000Z",
-      "expiryDate": "2026-04-16T15:00:00.000Z",
-      "imageUrl": "https://cdn1.epicgames.com/spt-assets/a965174568cb492ca3ebbe7a95886261/propsumo-jc5go.png"
+      "startDate": "2026-05-07T15:00:00.000Z",
+      "expiryDate": "2026-05-14T15:00:00.000Z",
+      "imageUrl": "https://cdn1.epicgames.com/spt-assets/113ae486fe9040d89a7fc25a501dc3b9/trash-goblin-6n7xr.png"
     }
   ]
 }
