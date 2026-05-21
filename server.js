@@ -20,6 +20,13 @@ let dealsCache = {
 let refreshInFlight = null;
 let lastForceRefreshAt = 0;
 
+function isDealActive(deal, now = new Date()) {
+    if (!deal || !deal.expiryDate) return true;
+    const expiry = new Date(deal.expiryDate);
+    if (Number.isNaN(expiry.getTime())) return false;
+    return expiry > now;
+}
+
 app.use(cors());
 app.use(express.json());
 app.use(express.static(__dirname));
@@ -76,8 +83,10 @@ async function refreshDeals({ force = false } = {}) {
 
             // If a scrape fails silently and returns nothing, keep known good data.
             if (normalized.length === 0 && dealsCache.deals.length > 0) {
+                const activeCachedDeals = dealsCache.deals.filter(d => isDealActive(d));
                 dealsCache = {
                     ...dealsCache,
+                    deals: activeCachedDeals,
                     source: 'cache-preserved-empty-scan',
                     error: null
                 };

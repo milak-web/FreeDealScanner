@@ -2,6 +2,13 @@ const fs = require('fs');
 const path = require('path');
 const { getAllDeals } = require('./lib/scrapers');
 
+function isDealActive(deal, now = new Date()) {
+    if (!deal || !deal.expiryDate) return true;
+    const expiry = new Date(deal.expiryDate);
+    if (Number.isNaN(expiry.getTime())) return false;
+    return expiry > now;
+}
+
 async function updateData() {
     console.log('[scan] Starting scheduled deal scan...');
     try {
@@ -25,7 +32,8 @@ async function updateData() {
             fs.mkdirSync(dataPath, { recursive: true });
         }
 
-        const finalDeals = normalizedDeals.length > 0 ? normalizedDeals : previousDeals;
+        const activePreviousDeals = previousDeals.filter(d => isDealActive(d));
+        const finalDeals = normalizedDeals.length > 0 ? normalizedDeals : activePreviousDeals;
 
         fs.writeFileSync(
             outputPath,
@@ -41,8 +49,8 @@ async function updateData() {
 
         if (normalizedDeals.length > 0) {
             console.log(`[scan] Saved ${normalizedDeals.length} fresh deals to deals.json`);
-        } else if (previousDeals.length > 0) {
-            console.log(`[scan] Preserved previous snapshot with ${previousDeals.length} deals`);
+        } else if (activePreviousDeals.length > 0) {
+            console.log(`[scan] Preserved previous active snapshot with ${activePreviousDeals.length} deals`);
         } else {
             console.log('[scan] No deals available. Wrote empty snapshot.');
         }
