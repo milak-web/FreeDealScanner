@@ -126,6 +126,8 @@
             <p class="text-slate-400 font-bold tracking-[0.2em] uppercase text-sm">Synchronizing with store servers...</p>
         </div>
 
+        <section id="adBannerSlot" class="mb-8 hidden"></section>
+
         <div id="dealsGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 hidden">
             <!-- Deals will be inserted here -->
         </div>
@@ -142,6 +144,9 @@
         <div class="container mx-auto px-4 flex flex-col sm:flex-row justify-between items-center gap-4 text-slate-500 text-[10px] font-black uppercase tracking-[0.3em]">
             <p>&copy; 2026 DealHunter // Full-Stack JS Engine</p>
             <p>Last Sync: <span id="lastUpdated" class="text-yellow-500">Initializing...</span></p>
+        </div>
+        <div class="container mx-auto px-4 mt-4 text-center">
+            <p id="monetizationDisclosure" class="text-slate-600 text-[10px] font-bold uppercase tracking-widest hidden"></p>
         </div>
     </footer>
 
@@ -168,12 +173,15 @@
         const watchlistGrid = document.getElementById('watchlistGrid');
         const emptyWatchlist = document.getElementById('emptyWatchlist');
         const watchlistCount = document.getElementById('watchlistCount');
+        const adBannerSlot = document.getElementById('adBannerSlot');
+        const monetizationDisclosure = document.getElementById('monetizationDisclosure');
         let debounceTimer;
 
         // Static mode is for GitHub Pages or opening the file directly.
         const isGitHubPages = window.location.hostname.includes('github.io');
         let isStaticMode = isGitHubPages || window.location.protocol === 'file:';
         let lastDealsPayload = null;
+        let adImpressionCache = new Set();
 
         function parseDealExpiry(value) {
             if (!value || typeof value !== 'string') return null;
@@ -645,6 +653,112 @@
             lastUpdated.textContent = `${relative}${source}`;
         }
 
+        function isAdCurrentlyActive(ad) {
+            if (!ad) return false;
+            if (String(ad.status || 'active').toLowerCase() !== 'active') return false;
+            if (!ad.id || !ad.title || !ad.link) return false;
+
+            const now = new Date();
+            const startsAt = ad.startsAt ? new Date(ad.startsAt) : null;
+            const endsAt = ad.endsAt ? new Date(ad.endsAt) : null;
+            if (startsAt && !Number.isNaN(startsAt.getTime()) && startsAt > now) return false;
+            if (endsAt && !Number.isNaN(endsAt.getTime()) && endsAt <= now) return false;
+            return true;
+        }
+
+        function buildAdClickUrl(ad) {
+            if (!ad || !ad.id) return '#';
+            if (isStaticMode) return ad.link;
+            return `/api/ads/click/${encodeURIComponent(ad.id)}`;
+        }
+
+        async function trackAdImpression(adId) {
+            if (!adId || isStaticMode || adImpressionCache.has(adId)) return;
+            adImpressionCache.add(adId);
+            try {
+                await fetch('/api/ads/impression', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ adId })
+                });
+            } catch (error) {
+                console.error('Ad impression tracking failed:', error);
+            }
+        }
+
+        function renderMonetization(payload) {
+            const disclosureText = payload?.disclosure || '';
+            if (disclosureText) {
+                monetizationDisclosure.textContent = disclosureText;
+                monetizationDisclosure.classList.remove('hidden');
+            } else {
+                monetizationDisclosure.classList.add('hidden');
+            }
+
+            const banner = payload?.enabled ? payload?.slots?.topBanner : null;
+            if (!isAdCurrentlyActive(banner)) {
+                adBannerSlot.classList.add('hidden');
+                adBannerSlot.innerHTML = '';
+                return;
+            }
+
+            const safeCta = banner.cta || 'Learn More';
+            const safeDesc = banner.description || 'Sponsored placement';
+            const safeImage = banner.imageUrl || '';
+            const clickUrl = buildAdClickUrl(banner);
+            adBannerSlot.innerHTML = `
+                <article class="relative overflow-hidden rounded-2xl border border-yellow-500/30 bg-slate-900/70 shadow-xl">
+                    <div class="absolute inset-0 bg-gradient-to-r from-yellow-500/10 via-transparent to-transparent pointer-events-none"></div>
+                    <div class="relative p-5 sm:p-6 flex flex-col sm:flex-row sm:items-center gap-5">
+                        ${safeImage ? `<img src="${safeImage}" alt="Sponsored" class="w-full sm:w-32 h-20 object-cover rounded-lg border border-slate-700">` : ''}
+                        <div class="flex-1 min-w-0">
+                            <span class="inline-flex items-center px-2 py-1 rounded border border-yellow-500/30 bg-yellow-500/10 text-yellow-400 text-[9px] font-black uppercase tracking-widest">Sponsored</span>
+                            <h3 class="mt-2 text-sm sm:text-base font-black uppercase tracking-tight text-slate-100">${banner.title}</h3>
+                            <p class="mt-1 text-xs text-slate-400">${safeDesc}</p>
+                        </div>
+                        <a href="${clickUrl}" target="_blank" rel="noopener noreferrer sponsored"
+                           class="shrink-0 bg-yellow-500 hover:bg-yellow-400 text-slate-950 px-4 py-2 rounded-lg font-black uppercase text-[10px] tracking-widest transition-colors">
+                            ${safeCta}
+                        </a>
+                    </div>
+                </article>
+            `;
+            adBannerSlot.classList.remove('hidden');
+            trackAdImpression(banner.id);
+        }
+
+        async function fetchMonetization() {
+            try {
+                const cacheBust = `t=${Date.now()}`;
+                let payload;
+
+                if (!isStaticMode) {
+                    const response = await fetch(`/api/ads?${cacheBust}`);
+                    if (!response.ok) throw new Error(`Monetization API failed: ${response.status}`);
+                    payload = await response.json();
+                } else {
+                    const response = await fetch(`./data/ads.json?${cacheBust}`);
+                    if (!response.ok) {
+                        renderMonetization({ enabled: false, disclosure: '' });
+                        return;
+                    }
+                    const raw = await response.json();
+                    const rawAds = Array.isArray(raw?.ads) ? raw.ads : [];
+                    const topBanner = rawAds.find(a => a.slot === 'topBanner' && isAdCurrentlyActive(a)) || null;
+                    payload = {
+                        enabled: raw?.enabled !== false,
+                        disclosure: raw?.disclosure || '',
+                        slots: { topBanner }
+                    };
+                }
+
+                renderMonetization(payload);
+            } catch (error) {
+                console.error('Failed to fetch monetization settings:', error);
+                renderMonetization({ enabled: false, disclosure: '' });
+            }
+        }
+
         async function fetchDeals(options = {}) {
             const force = Boolean(options.force);
             const silent = Boolean(options.silent);
@@ -713,6 +827,7 @@
                     refreshBtn.disabled = false;
                     refreshIcon.classList.remove('animate-spin');
                 }
+                fetchMonetization();
             }
         }
 

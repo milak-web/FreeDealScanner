@@ -6,3 +6,4 @@ debug_steam_timer.js
 save_html.js
 get_stores.js
 test_steam.js
+data/ad_metrics.json
