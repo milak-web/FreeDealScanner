@@ -1,52 +1,43 @@
 {
-  "lastUpdated": "2026-05-21T01:41:46.954Z",
+  "lastUpdated": "2026-05-21T19:01:03.363Z",
   "deals": [
     {
-      "title": "The Telltale Batman Shadows Edition",
+      "title": "Down in Bermuda",
       "platform": "Epic Games",
       "originalPrice": "0",
-      "link": "https://store.epicgames.com/en-US/p/the-telltale-batman",
+      "link": "https://store.epicgames.com/en-US/p/down-in-bermuda",
       "category": "Game",
-      "startDate": "2026-05-14T15:00:00.000Z",
-      "expiryDate": "2026-05-21T15:00:00.000Z",
-      "imageUrl": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/TheTelltaleBatmanShadowsEdition-2560x1440-1ababb36a948b5c732ab85a330787e85_2560x1440-8542c9faaf034219973add17b0749b9a"
+      "startDate": "2026-05-21T15:00:00.000Z",
+      "expiryDate": "2026-05-28T15:00:00.000Z",
+      "imageUrl": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Offer_wide_2560x1440-5314b15510b84a82971afea207658297"
     },
     {
-      "title": "Sunderfolk - Standard Edition",
+      "title": "Tomb Raider I-III Remastered Starring Lara Croft",
       "platform": "Epic Games",
       "originalPrice": "0",
-      "link": "https://store.epicgames.com/en-US/p/sunderfolk-standard-edition-83c05e",
+      "link": "https://store.epicgames.com/en-US/p/tomb-raider-iiii-remastered-538640",
       "category": "Game",
-      "startDate": "2026-05-14T15:00:00.000Z",
-      "expiryDate": "2026-05-21T15:00:00.000Z",
-      "imageUrl": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/OfferImageWide_2560x1440-05350f0fffad4da3945dc0871f2d2b24"
+      "startDate": "2026-05-21T15:00:00.000Z",
+      "expiryDate": "2026-05-28T15:00:00.000Z",
+      "imageUrl": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Wide_2560x1440-8d4d3759851d462299fc4c6cf13643b2"
     },
     {
-      "title": "Tower of Time (Steam) Key Giveaway",
+      "title": "Warhammer 40,000: Gladius - Relics of War",
       "platform": "Steam",
-      "originalPrice": "$24.99",
-      "link": "https://www.gamerpower.com/open/tower-of-time-steam-key-giveaway",
+      "originalPrice": "$39.99",
+      "link": "https://store.steampowered.com/app/489630/Warhammer_40000_Gladius__Relics_of_War",
       "category": "Game",
-      "expiryDate": "2026-05-22T21:59:00.000Z",
-      "imageUrl": "https://www.gamerpower.com/offers/1/6a0d9f96c5207.jpg"
+      "imageUrl": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/489630/header.jpg",
+      "expiryDate": "2026-05-28T09:00:00.000Z"
     },
     {
-      "title": "Dino running from a FURRY: GAMESFORFARM (Steam) Giveaway",
-      "platform": "Steam",
-      "originalPrice": "$2.99",
-      "link": "https://www.gamerpower.com/open/dino-running-from-a-furry-gamesforfarm-steam-giveaway",
-      "category": "Game",
-      "expiryDate": "2026-05-30T21:59:00.000Z",
-      "imageUrl": "https://www.gamerpower.com/offers/1/6a07557ecdf89.jpg"
-    },
-    {
-      "title": "Arranger: A Role-Puzzling Adventure (Mobile) Giveaway",
+      "title": "Monument Valley 3 (Mobile) Giveaway",
       "platform": "Mobile",
-      "originalPrice": "$8.99",
-      "link": "https://www.gamerpower.com/open/arranger-a-role-puzzling-adventure-mobile-giveaway",
+      "originalPrice": "$5.99",
+      "link": "https://www.gamerpower.com/open/monument-valley-3-mobile-giveaway",
       "category": "Mobile",
-      "expiryDate": "2026-05-21T21:59:00.000Z",
-      "imageUrl": "https://www.gamerpower.com/offers/1/6a05e8a1e12a6.jpg"
+      "expiryDate": "2026-05-28T23:59:00.000Z",
+      "imageUrl": "https://www.gamerpower.com/offers/1/6a0f239f0fb4e.jpg"
     }
   ]
 }
