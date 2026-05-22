@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-22T20:53:49.150Z",
+  "lastUpdated": "2026-05-22T22:01:27.719Z",
   "deals": [
     {
       "title": "Down in Bermuda",
@@ -220,15 +220,6 @@
       "imageUrl": "https://img.itch.zone/aW1nLzI0NzYzMjQ2LnBuZw==/315x250%23c/cd8TmR.png"
     },
     {
-      "title": "Worst Wifey (ワル嫁)",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://worsteventgames.itch.io/worst-wifey",
-      "category": "Game",
-      "expiryDate": "2026-05-28T09:59:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI1MjQzNTc0LnBuZw==/315x250%23c/QTCS9w.png"
-    },
-    {
       "title": "Fractured: Roadwood Stop",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -238,6 +229,15 @@
       "imageUrl": "https://img.itch.zone/aW1nLzI2MTMzMDc4LnBuZw==/315x250%23c/9Vbt7e.png"
     },
     {
+      "title": "Worst Wifey (ワル嫁)",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://worsteventgames.itch.io/worst-wifey",
+      "category": "Game",
+      "expiryDate": "2026-05-28T09:59:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzI1MjQzNTc0LnBuZw==/315x250%23c/QTCS9w.png"
+    },
+    {
       "title": "Back to Modern World - Fantasy Hero",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -245,6 +245,15 @@
       "category": "Game",
       "expiryDate": "2026-05-24T21:56:00.000Z",
       "imageUrl": "https://img.itch.zone/aW1nLzI3MTA0OTY0LnBuZw==/315x250%23c/JU5chG.png"
+    },
+    {
+      "title": "Rose and Cross",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://zv-games.itch.io/roseandcross",
+      "category": "Game",
+      "expiryDate": "2026-05-31T15:18:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzI0MjYyNzA4LnBuZw==/315x250%23c/r0UrdV.png"
     },
     {
       "title": "Static Voice",
@@ -265,13 +274,13 @@
       "imageUrl": "https://img.itch.zone/aW1nLzI0ODM0NjYxLnBuZw==/315x250%23c/0vV793.png"
     },
     {
-      "title": "Rose and Cross",
+      "title": "Exit Only",
       "platform": "Itch.io",
       "originalPrice": "N/A",
-      "link": "https://zv-games.itch.io/roseandcross",
+      "link": "https://vladislive-dev.itch.io/exit-only",
       "category": "Game",
-      "expiryDate": "2026-05-31T15:18:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI0MjYyNzA4LnBuZw==/315x250%23c/r0UrdV.png"
+      "expiryDate": "2026-05-31T22:40:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzIzMzMyMzk0LnBuZw==/315x250%23c/kkNSz2.png"
     },
     {
       "title": "Reincarnated as a Noble - RPG",
@@ -283,15 +292,6 @@
       "imageUrl": "https://img.itch.zone/aW1nLzEwNTg4NjgzLnBuZw==/315x250%23c/%2FyjF8k.png"
     },
     {
-      "title": "Exit Only",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://vladislive-dev.itch.io/exit-only",
-      "category": "Game",
-      "expiryDate": "2026-05-31T22:40:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzIzMzMyMzk0LnBuZw==/315x250%23c/kkNSz2.png"
-    },
-    {
       "title": "Rogeria Escape",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -299,6 +299,15 @@
       "category": "Game",
       "expiryDate": "2026-05-28T20:20:00.000Z",
       "imageUrl": "https://img.itch.zone/aW1nLzI0OTQxMDU3LnBuZw==/315x250%23c/qFweXj.png"
+    },
+    {
+      "title": "The Uninvited",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://vladislive-dev.itch.io/the-uninvited",
+      "category": "Game",
+      "expiryDate": "2026-05-31T22:40:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzI0OTY1NzA1LnBuZw==/315x250%23c/WW4Q3n.png"
     },
     {
       "title": "Bunny Guys!",
