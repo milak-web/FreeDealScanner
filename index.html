@@ -24,6 +24,7 @@
         .epic-games { background-color: #ffffff; color: #000000; }
         .steam { background-color: #1b2838; color: #66c0f4; border: 1px solid #66c0f4; }
         .gog { background-color: #4b0082; color: #f1f1f1; }
+        .itch { background-color: #fa5c5c; color: #ffffff; }
         .playstation { background-color: #003791; color: white; }
         .xbox { background-color: #107c10; color: white; }
         .nintendo { background-color: #e60012; color: white; }
@@ -65,6 +66,7 @@
                     <button onclick="setFilter('Epic Games')" id="filter-epic" class="filter-btn px-4 py-1.5 rounded-md text-xs font-bold uppercase tracking-widest transition">Epic</button>
                     <button onclick="setFilter('Steam')" id="filter-steam" class="filter-btn px-4 py-1.5 rounded-md text-xs font-bold uppercase tracking-widest transition">Steam</button>
                     <button onclick="setFilter('GOG')" id="filter-gog" class="filter-btn px-4 py-1.5 rounded-md text-xs font-bold uppercase tracking-widest transition">GOG</button>
+                    <button onclick="setFilter('Itch.io')" id="filter-itch" class="filter-btn px-4 py-1.5 rounded-md text-xs font-bold uppercase tracking-widest transition">Itch</button>
                     <button onclick="setFilter('Mobile')" id="filter-mobile" class="filter-btn px-4 py-1.5 rounded-md text-xs font-bold uppercase tracking-widest transition">Mobile</button>
                 </div>
 
@@ -620,13 +622,25 @@
         });
 
 
+        function getFilterButtonId(filter) {
+            const map = {
+                all: 'filter-all',
+                'Epic Games': 'filter-epic',
+                Steam: 'filter-steam',
+                GOG: 'filter-gog',
+                'Itch.io': 'filter-itch',
+                Mobile: 'filter-mobile'
+            };
+            return map[filter] || `filter-${String(filter || '').toLowerCase().replace(/[^a-z0-9]+/g, '')}`;
+        }
+
         function setFilter(filter) {
             currentFilter = filter;
             document.querySelectorAll('.filter-btn').forEach(btn => {
                 btn.classList.remove('bg-yellow-500', 'text-slate-950');
                 btn.classList.add('text-slate-400');
             });
-            const activeBtn = document.getElementById(`filter-${filter.toLowerCase().replace(' ', '')}`);
+            const activeBtn = document.getElementById(getFilterButtonId(filter));
             if (activeBtn) {
                 activeBtn.classList.remove('text-slate-400');
                 activeBtn.classList.add('bg-yellow-500', 'text-slate-950');
@@ -721,6 +735,7 @@
             if (p.includes('epic')) return 'epic-games';
             if (p.includes('steam')) return 'steam';
             if (p.includes('gog')) return 'gog';
+            if (p.includes('itch')) return 'itch';
             if (p.includes('playstation')) return 'playstation';
             if (p.includes('xbox')) return 'xbox';
             if (p.includes('nintendo')) return 'nintendo';
