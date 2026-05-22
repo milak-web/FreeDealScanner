@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-21T23:33:21.239Z",
+  "lastUpdated": "2026-05-22T00:23:06.961Z",
   "deals": [
     {
       "title": "Down in Bermuda",
@@ -31,13 +31,22 @@
       "expiryDate": "2026-05-28T09:00:00.000Z"
     },
     {
-      "title": "Monument Valley 3 (Mobile) Giveaway",
-      "platform": "Mobile",
-      "originalPrice": "$5.99",
-      "link": "https://www.gamerpower.com/open/monument-valley-3-mobile-giveaway",
-      "category": "Mobile",
-      "expiryDate": "2026-05-28T23:59:00.000Z",
-      "imageUrl": "https://www.gamerpower.com/offers/1/6a0f239f0fb4e.jpg"
+      "title": "Car Mechanic Simulator 2018",
+      "platform": "Steam",
+      "originalPrice": "$19.99",
+      "link": "https://store.steampowered.com/app/645630/Car_Mechanic_Simulator_2018",
+      "category": "Game",
+      "expiryDate": "2026-05-27T23:59:00.000Z",
+      "imageUrl": "https://www.gamerpower.com/offers/1/6a0f3b4f599b9.jpg"
+    },
+    {
+      "title": "Dino running from a FURRY: GAMESFORFARM",
+      "platform": "Steam",
+      "originalPrice": "$2.99",
+      "link": "https://store.steampowered.com/app/3343840/Dino_running_from_a_FURRY_GAMESFORFARM",
+      "category": "Game",
+      "expiryDate": "2026-05-30T23:59:00.000Z",
+      "imageUrl": "https://www.gamerpower.com/offers/1/6a07557ecdf89.jpg"
     }
   ]
 }
