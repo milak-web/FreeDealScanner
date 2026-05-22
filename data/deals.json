@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-22T00:23:06.961Z",
+  "lastUpdated": "2026-05-22T00:25:58.859Z",
   "deals": [
     {
       "title": "Down in Bermuda",
@@ -38,6 +38,24 @@
       "category": "Game",
       "expiryDate": "2026-05-27T23:59:00.000Z",
       "imageUrl": "https://www.gamerpower.com/offers/1/6a0f3b4f599b9.jpg"
+    },
+    {
+      "title": "Monument Valley 3",
+      "platform": "Mobile",
+      "originalPrice": "$5.99",
+      "link": "https://store.epicgames.com/mobile",
+      "category": "Mobile",
+      "expiryDate": "2026-05-28T23:59:00.000Z",
+      "imageUrl": "https://www.gamerpower.com/offers/1/6a0f239f0fb4e.jpg"
+    },
+    {
+      "title": "Tower of Time",
+      "platform": "Steam",
+      "originalPrice": "$24.99",
+      "link": "https://www.fanatical.com/en/game/tower-of-time",
+      "category": "Game",
+      "expiryDate": "2026-05-22T23:59:00.000Z",
+      "imageUrl": "https://www.gamerpower.com/offers/1/6a0d9f96c5207.jpg"
     },
     {
       "title": "Dino running from a FURRY: GAMESFORFARM",
