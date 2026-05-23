@@ -202,6 +202,39 @@
             return Boolean(key && claimedDeals[key]);
         }
 
+        function parsePriceAmount(value) {
+            if (value === null || value === undefined) return 0;
+            if (typeof value === 'number') return Number.isFinite(value) && value > 0 ? value : 0;
+            if (typeof value !== 'string') return 0;
+
+            const cleaned = value.replace(/,/g, '').trim();
+            if (!cleaned || cleaned.toLowerCase() === 'n/a') return 0;
+            const match = cleaned.match(/(\d+(?:\.\d+)?)/);
+            if (!match) return 0;
+            const amount = Number(match[1]);
+            return Number.isFinite(amount) && amount > 0 ? amount : 0;
+        }
+
+        function getDealSavedAmount(deal) {
+            if (!deal) return 0;
+            const original = parsePriceAmount(deal.originalPrice);
+            if (original > 0) return original;
+            return 0;
+        }
+
+        function getTotalSavedAmount() {
+            return Object.values(claimedDeals).reduce((sum, entry) => {
+                const amount = Number(entry?.savedAmount || 0);
+                if (!Number.isFinite(amount) || amount <= 0) return sum;
+                return sum + amount;
+            }, 0);
+        }
+
+        function formatSavedAmount(amount) {
+            const safe = Number.isFinite(amount) && amount > 0 ? amount : 0;
+            return `$${safe.toFixed(2)}`;
+        }
+
         function showUiToast(message, tone = 'info') {
             let toast = document.getElementById('appToast');
             if (!toast) {
@@ -234,9 +267,11 @@
 
             const sourceDeal = allDeals.find(d => normalizeDealLink(d.link) === normalized) ||
                                watchlist.find(d => normalizeDealLink(d.link) === normalized);
+            const savedAmount = getDealSavedAmount(sourceDeal);
             claimedDeals[normalized] = {
                 claimedAt: new Date().toISOString(),
-                title: sourceDeal?.title || ''
+                title: sourceDeal?.title || '',
+                savedAmount
             };
             saveClaimedDeals();
         }
@@ -830,6 +865,8 @@
             if (p.includes('steam')) return 'steam';
             if (p.includes('gog')) return 'gog';
             if (p.includes('itch')) return 'itch';
+            if (p.includes('humble')) return 'other';
+            if (p.includes('fanatical')) return 'other';
             if (p.includes('playstation')) return 'playstation';
             if (p.includes('xbox')) return 'xbox';
             if (p.includes('nintendo')) return 'nintendo';
@@ -921,6 +958,17 @@
                 <span class="text-lg font-black text-yellow-500">${deals.length}</span>
             `;
             stats.appendChild(allBtn);
+
+            const totalSaved = getTotalSavedAmount();
+            const claimedCount = Object.keys(claimedDeals || {}).length;
+            const savedBadge = document.createElement('div');
+            savedBadge.className = 'bg-slate-900 px-4 py-2 rounded-lg border border-emerald-700/40 flex items-center space-x-3 shadow-lg';
+            savedBadge.innerHTML = `
+                <span class="text-[10px] font-black text-emerald-400 uppercase tracking-widest">You Saved</span>
+                <span class="text-lg font-black text-emerald-300">${formatSavedAmount(totalSaved)}</span>
+                <span class="text-[10px] font-black text-slate-500 uppercase tracking-widest">(${claimedCount} claimed)</span>
+            `;
+            stats.appendChild(savedBadge);
 
             Object.entries(platformCounts).forEach(([platform, count]) => {
                 const badge = document.createElement('div');
