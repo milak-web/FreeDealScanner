@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-23T02:15:25.985Z",
+  "lastUpdated": "2026-05-23T05:51:09.212Z",
   "deals": [
     {
       "title": "Down in Bermuda",
@@ -58,15 +58,6 @@
       "imageUrl": "https://img.itch.zone/aW1nLzI0ODUxMTkwLnBuZw==/315x250%23c/yVjMg0.png"
     },
     {
-      "title": "Pigeon West: Call Of Gun. ISEKAI",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://squidsquadpapi.itch.io/pigeon-west-call-of-gun-isekai",
-      "category": "Game",
-      "expiryDate": "2026-06-01T19:54:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzIwMzA1NjU5LmpwZw==/315x250%23c/1wj2sv.jpg"
-    },
-    {
       "title": "Larger Than Light",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -74,6 +65,15 @@
       "category": "Game",
       "expiryDate": "2026-06-01T00:04:00.000Z",
       "imageUrl": "https://img.itch.zone/aW1nLzU5NTQ1MzAuanBn/315x250%23c/jN76fr.jpg"
+    },
+    {
+      "title": "Pigeon West: Call Of Gun. ISEKAI",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://squidsquadpapi.itch.io/pigeon-west-call-of-gun-isekai",
+      "category": "Game",
+      "expiryDate": "2026-06-01T19:54:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzIwMzA1NjU5LmpwZw==/315x250%23c/1wj2sv.jpg"
     },
     {
       "title": "Red Margins",
@@ -121,15 +121,6 @@
       "imageUrl": "https://img.itch.zone/aW1nLzM4MTYxMjkuanBn/315x250%23c/7%2ByvvW.jpg"
     },
     {
-      "title": "Pigeon West: Johnny the Pigeon",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://squidsquadpapi.itch.io/johnny-the-pigeon",
-      "category": "Game",
-      "expiryDate": "2026-06-01T19:54:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzE1NDI3NTA2LnBuZw==/315x250%23c/E0ZkTJ.png"
-    },
-    {
       "title": "Cherophobia",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -137,6 +128,15 @@
       "category": "Game",
       "expiryDate": "2026-05-28T09:59:00.000Z",
       "imageUrl": "https://img.itch.zone/aW1nLzE1OTgwMjk2LmpwZw==/315x250%23c/OIQ5Ad.jpg"
+    },
+    {
+      "title": "Pigeon West: Johnny the Pigeon",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://squidsquadpapi.itch.io/johnny-the-pigeon",
+      "category": "Game",
+      "expiryDate": "2026-06-01T19:54:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzE1NDI3NTA2LnBuZw==/315x250%23c/E0ZkTJ.png"
     },
     {
       "title": "Terminal Descent",
@@ -166,6 +166,15 @@
       "imageUrl": "https://img.itch.zone/aW1nLzIzMDIwMDUwLnBuZw==/315x250%23c/%2BObOOm.png"
     },
     {
+      "title": "Fractured: The Cast",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://fenixapple.itch.io/fractured",
+      "category": "Game",
+      "expiryDate": "2026-06-08T11:35:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzI2MTMzMDc0LnBuZw==/315x250%23c/hrUHTd.png"
+    },
+    {
       "title": "Worst Wifey (ワル嫁)",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -175,13 +184,13 @@
       "imageUrl": "https://img.itch.zone/aW1nLzI1MjQzNTc0LnBuZw==/315x250%23c/QTCS9w.png"
     },
     {
-      "title": "Fractured: The Cast",
+      "title": "Fractured: Roadwood Stop",
       "platform": "Itch.io",
       "originalPrice": "N/A",
-      "link": "https://fenixapple.itch.io/fractured",
+      "link": "https://fenixapple.itch.io/fractured-roadwood-stop",
       "category": "Game",
       "expiryDate": "2026-06-08T11:35:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI2MTMzMDc0LnBuZw==/315x250%23c/hrUHTd.png"
+      "imageUrl": "https://img.itch.zone/aW1nLzI2MTMzMDc4LnBuZw==/315x250%23c/9Vbt7e.png"
     },
     {
       "title": "Do You Have a Moment to Talk About Our Lord and Savior?",
@@ -199,16 +208,7 @@
       "link": "https://s-xavier-uy.itch.io/back-to-modern-world-fantasy-hero",
       "category": "Game",
       "expiryDate": "2026-05-24T21:56:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI3MTA0OTY0LnBuZw==/315x250%23c/JU5chG.png"
-    },
-    {
-      "title": "Fractured: Roadwood Stop",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://fenixapple.itch.io/fractured-roadwood-stop",
-      "category": "Game",
-      "expiryDate": "2026-06-08T11:35:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI2MTMzMDc4LnBuZw==/315x250%23c/9Vbt7e.png"
+      "imageUrl": "https://img.itch.zone/aW1nLzI3NDI1NTcwLnBuZw==/315x250%23c/srmjWs.png"
     },
     {
       "title": "Eternal Night",
@@ -236,6 +236,24 @@
       "category": "Game",
       "expiryDate": "2026-05-29T07:47:00.000Z",
       "imageUrl": "https://img.itch.zone/aW1nLzI0NTgwNjE0LnBuZw==/315x250%23c/ees3jN.png"
+    },
+    {
+      "title": "MiniColonyAdventures – Build, Expand & Survive",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://gamebuegar.itch.io/colonyadventure",
+      "category": "Game",
+      "expiryDate": "2026-06-01T13:55:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzI1ODYxNjIyLnBuZw==/315x250%23c/5xN9NN.png"
+    },
+    {
+      "title": "Reincarnated as a Noble - RPG",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://s-xavier-uy.itch.io/reincarnated-as-a-noble",
+      "category": "Game",
+      "expiryDate": "2026-05-25T02:37:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzEwNTg4NjgzLnBuZw==/315x250%23c/%2FyjF8k.png"
     },
     {
       "title": "Bunny Guys!",
