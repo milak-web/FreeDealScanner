@@ -222,6 +222,34 @@
             return 0;
         }
 
+        function reconcileClaimedSavings() {
+            let changed = false;
+            const claimKeys = Object.keys(claimedDeals || {});
+            for (const key of claimKeys) {
+                const entry = claimedDeals[key];
+                if (!entry) continue;
+
+                const currentSaved = Number(entry.savedAmount || 0);
+                if (Number.isFinite(currentSaved) && currentSaved > 0) continue;
+
+                const matchingDeal = allDeals.find(d => normalizeDealLink(d.link) === key) ||
+                                     watchlist.find(d => normalizeDealLink(d.link) === key);
+                if (!matchingDeal) continue;
+
+                const inferred = getDealSavedAmount(matchingDeal);
+                if (inferred > 0) {
+                    claimedDeals[key] = {
+                        ...entry,
+                        savedAmount: inferred,
+                        title: entry.title || matchingDeal.title || ''
+                    };
+                    changed = true;
+                }
+            }
+
+            if (changed) saveClaimedDeals();
+        }
+
         function getTotalSavedAmount() {
             return Object.values(claimedDeals).reduce((sum, entry) => {
                 const amount = Number(entry?.savedAmount || 0);
@@ -281,19 +309,23 @@
             const link = decodeURIComponent(encodedLink || '');
             if (!link) return;
 
-            if (isClaimed(link)) {
-                showUiToast('Already Claimed', 'warn');
-                return;
+            const normalizedLink = normalizeDealLink(link);
+            if (!isClaimed(link)) {
+                markDealAsClaimed(link);
+                filterAndDisplay();
+                if (!watchlistSection.classList.contains('hidden')) updateWatchlistUI();
+
+                const sourceDeal = allDeals.find(d => normalizeDealLink(d.link) === normalizedLink) ||
+                                   watchlist.find(d => normalizeDealLink(d.link) === normalizedLink);
+                const title = sourceDeal?.title ? sourceDeal.title : 'Deal';
+                showUiToast(`Claimed: ${title}`, 'success');
+            } else {
+                const sourceDeal = allDeals.find(d => normalizeDealLink(d.link) === normalizedLink) ||
+                                   watchlist.find(d => normalizeDealLink(d.link) === normalizedLink);
+                const title = sourceDeal?.title ? sourceDeal.title : 'Deal';
+                showUiToast(`Already Claimed: ${title}`, 'warn');
             }
 
-            markDealAsClaimed(link);
-            filterAndDisplay();
-            if (!watchlistSection.classList.contains('hidden')) updateWatchlistUI();
-
-            const sourceDeal = allDeals.find(d => normalizeDealLink(d.link) === normalizeDealLink(link)) ||
-                               watchlist.find(d => normalizeDealLink(d.link) === normalizeDealLink(link));
-            const title = sourceDeal?.title ? sourceDeal.title : 'Deal';
-            showUiToast(`Claimed: ${title}`, 'success');
             window.open(link, '_blank', 'noopener,noreferrer');
         }
 
@@ -551,7 +583,7 @@
             const isFreeDeal = displayPrice.toUpperCase().includes('FREE') || displayPrice === '$0' || displayPrice === '0';
             const actionText = claimed ? 'Claimed' : (isFreeDeal ? 'Claim' : 'View Deal');
             const claimBtnClass = claimed
-                ? 'bg-emerald-700 text-white cursor-not-allowed opacity-90'
+                ? 'bg-emerald-700 hover:bg-emerald-600 text-white opacity-95'
                 : 'bg-yellow-500 hover:bg-yellow-400 text-slate-950 active:scale-95';
             const encodedLink = encodeURIComponent(deal.link);
             const discountBadge = deal.discountPct ? `<span class="bg-emerald-600/20 text-emerald-400 border border-emerald-600/30 text-[9px] px-2 py-0.5 rounded font-black uppercase tracking-wider mt-2 inline-block">${deal.discountPct}</span>` : '';
@@ -599,7 +631,6 @@
                             </div>
                             <button
                                 onclick="handleClaimClick(event, '${encodedLink}')"
-                                ${claimed ? 'disabled' : ''}
                                 class="${claimBtnClass} px-6 py-2 rounded-lg font-black uppercase text-[10px] tracking-widest transition-all"
                             >${actionText}</button>
                         </div>
@@ -823,6 +854,7 @@
 
                 allDeals = data.deals || (Array.isArray(data) ? data : []);
                 lastDealsPayload = data;
+                reconcileClaimedSavings();
                 renderLastUpdated(data);
 
                 filterAndDisplay(); // Use the function that applies the current filter
