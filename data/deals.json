@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-23T16:57:50.151Z",
+  "lastUpdated": "2026-05-23T18:01:22.772Z",
   "deals": [
     {
       "title": "Down in Bermuda",
@@ -49,6 +49,15 @@
       "imageUrl": "https://img.itch.zone/aW1nLzI2OTAyNjUwLmdpZg==/315x250%23c/4vzfrX.gif"
     },
     {
+      "title": "Red Margins",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://vladislive-dev.itch.io/unseen-red-margins",
+      "category": "Game",
+      "expiryDate": "2026-05-31T22:40:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzI2OTYxMjI3LnBuZw==/315x250%23c/EZruFL.png"
+    },
+    {
       "title": "Larger Than Light",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -85,15 +94,6 @@
       "imageUrl": "https://img.itch.zone/aW1nLzIwMzIyOTU4LnBuZw==/315x250%23c/9PMidy.png"
     },
     {
-      "title": "Red Margins",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://vladislive-dev.itch.io/unseen-red-margins",
-      "category": "Game",
-      "expiryDate": "2026-05-31T22:40:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI2OTYxMjI3LnBuZw==/315x250%23c/EZruFL.png"
-    },
-    {
       "title": "THE MIDNIGHT BUS",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -110,6 +110,15 @@
       "category": "Game",
       "expiryDate": "2026-06-01T19:54:00.000Z",
       "imageUrl": "https://img.itch.zone/aW1nLzIwODU3NjI3LmpwZw==/315x250%23c/h98Oi8.jpg"
+    },
+    {
+      "title": "The Cleaning Incident",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://chodex-productions.itch.io/the-cleaning-incident",
+      "category": "Game",
+      "expiryDate": "2026-05-31T23:34:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzI3NDEwMzU4LnBuZw==/315x250%23c/0dwMwc.png"
     },
     {
       "title": "Metanet Hunter G4",
@@ -139,24 +148,6 @@
       "imageUrl": "https://img.itch.zone/aW1nLzE1NDI3NTA2LnBuZw==/315x250%23c/E0ZkTJ.png"
     },
     {
-      "title": "Terminal Descent",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://roxicaro.itch.io/terminal-descent",
-      "category": "Game",
-      "expiryDate": "2026-06-08T16:36:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzIxODA4NzExLnBuZw==/315x250%23c/WprMWe.png"
-    },
-    {
-      "title": "The Cleaning Incident",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://chodex-productions.itch.io/the-cleaning-incident",
-      "category": "Game",
-      "expiryDate": "2026-05-31T23:34:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI3NDEwMzU4LnBuZw==/315x250%23c/0dwMwc.png"
-    },
-    {
       "title": "Svoboda 1945: Liberation",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -164,6 +155,15 @@
       "category": "Game",
       "expiryDate": "2026-05-25T21:59:00.000Z",
       "imageUrl": "https://img.itch.zone/aW1nLzc5MjkwNzUuanBn/315x250%23c/6z7n1A.jpg"
+    },
+    {
+      "title": "Terminal Descent",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://roxicaro.itch.io/terminal-descent",
+      "category": "Game",
+      "expiryDate": "2026-06-08T16:36:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzIxODA4NzExLnBuZw==/315x250%23c/WprMWe.png"
     },
     {
       "title": "Very Realistic Game Dev Simulator",
@@ -184,6 +184,15 @@
       "imageUrl": "https://img.itch.zone/aW1nLzI1MTY3NjA5LmpwZw==/315x250%23c/3h0WMu.jpg"
     },
     {
+      "title": "Fractured: Roadwood Stop",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://fenixapple.itch.io/fractured-roadwood-stop",
+      "category": "Game",
+      "expiryDate": "2026-06-08T11:35:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzI2MTMzMDc4LnBuZw==/315x250%23c/9Vbt7e.png"
+    },
+    {
       "title": "Fractured: The Cast",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -200,15 +209,6 @@
       "category": "Game",
       "expiryDate": "2026-05-28T09:59:00.000Z",
       "imageUrl": "https://img.itch.zone/aW1nLzI1MjQzNTc0LnBuZw==/315x250%23c/QTCS9w.png"
-    },
-    {
-      "title": "Fractured: Roadwood Stop",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://fenixapple.itch.io/fractured-roadwood-stop",
-      "category": "Game",
-      "expiryDate": "2026-06-08T11:35:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI2MTMzMDc4LnBuZw==/315x250%23c/9Vbt7e.png"
     },
     {
       "title": "Do You Have a Moment to Talk About Our Lord and Savior?",
@@ -238,15 +238,6 @@
       "imageUrl": "https://img.itch.zone/aW1nLzI0MjYyNzA4LnBuZw==/315x250%23c/r0UrdV.png"
     },
     {
-      "title": "Reincarnated as a Noble - RPG",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://s-xavier-uy.itch.io/reincarnated-as-a-noble",
-      "category": "Game",
-      "expiryDate": "2026-05-25T02:37:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzEwNTg4NjgzLnBuZw==/315x250%23c/%2FyjF8k.png"
-    },
-    {
       "title": "Static Voice",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -254,6 +245,15 @@
       "category": "Game",
       "expiryDate": "2026-05-29T07:47:00.000Z",
       "imageUrl": "https://img.itch.zone/aW1nLzI0NTgwNjE0LnBuZw==/315x250%23c/ees3jN.png"
+    },
+    {
+      "title": "Reincarnated as a Noble - RPG",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://s-xavier-uy.itch.io/reincarnated-as-a-noble",
+      "category": "Game",
+      "expiryDate": "2026-05-25T02:37:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzEwNTg4NjgzLnBuZw==/315x250%23c/%2FyjF8k.png"
     },
     {
       "title": "Eternal Night",
