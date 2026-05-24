@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-24T11:58:38.433Z",
+  "lastUpdated": "2026-05-24T13:39:11.291Z",
   "deals": [
     {
       "title": "Down in Bermuda",
@@ -193,15 +193,6 @@
       "imageUrl": "https://img.itch.zone/aW1nLzI0MjYyNzA4LnBuZw==/315x250%23c/r0UrdV.png"
     },
     {
-      "title": "Back to Modern World - Fantasy Hero",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://s-xavier-uy.itch.io/back-to-modern-world-fantasy-hero",
-      "category": "Game",
-      "expiryDate": "2026-05-24T21:56:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI3NDI1NTcwLnBuZw==/315x250%23c/srmjWs.png"
-    },
-    {
       "title": "Fractured: The Cast",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -218,6 +209,15 @@
       "category": "Game",
       "expiryDate": "2026-06-08T11:35:00.000Z",
       "imageUrl": "https://img.itch.zone/aW1nLzI2MTMzMDc4LnBuZw==/315x250%23c/9Vbt7e.png"
+    },
+    {
+      "title": "Back to Modern World - Fantasy Hero",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://s-xavier-uy.itch.io/back-to-modern-world-fantasy-hero",
+      "category": "Game",
+      "expiryDate": "2026-05-24T21:56:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzI3NDI1NTcwLnBuZw==/315x250%23c/srmjWs.png"
     },
     {
       "title": "Eternal Night",
