@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-27T14:22:54.055Z",
+  "lastUpdated": "2026-05-27T17:39:55.804Z",
   "deals": [
     {
       "title": "Down in Bermuda",
@@ -130,6 +130,15 @@
       "imageUrl": "https://img.itch.zone/aW1nLzM4MTYxMjkuanBn/315x250%23c/7%2ByvvW.jpg"
     },
     {
+      "title": "Pigeon West: El Diablo",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://squidsquadpapi.itch.io/pigeon-west-el-diablo",
+      "category": "Game",
+      "expiryDate": "2026-06-01T19:54:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzIwMzIyOTU4LnBuZw==/315x250%23c/9PMidy.png"
+    },
+    {
       "title": "THE MIDNIGHT BUS",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -148,15 +157,6 @@
       "imageUrl": "https://img.itch.zone/aW1nLzE1OTgwMjk2LmpwZw==/315x250%23c/OIQ5Ad.jpg"
     },
     {
-      "title": "Pigeon West: El Diablo",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://squidsquadpapi.itch.io/pigeon-west-el-diablo",
-      "category": "Game",
-      "expiryDate": "2026-06-01T19:54:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzIwMzIyOTU4LnBuZw==/315x250%23c/9PMidy.png"
-    },
-    {
       "title": "Pigeon West: Johnny the Pigeon",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -164,15 +164,6 @@
       "category": "Game",
       "expiryDate": "2026-06-01T19:54:00.000Z",
       "imageUrl": "https://img.itch.zone/aW1nLzE1NDI3NTA2LnBuZw==/315x250%23c/E0ZkTJ.png"
-    },
-    {
-      "title": "Late Stops",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://grantrimi.itch.io/late-stops",
-      "category": "Game",
-      "expiryDate": "2026-05-30T18:30:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI0NzYzMjU4LnBuZw==/315x250%23c/RBY7ZJ.png"
     },
     {
       "title": "Follower",
@@ -193,15 +184,6 @@
       "imageUrl": "https://img.itch.zone/aW1nLzI0NzYzMjQ2LnBuZw==/315x250%23c/cd8TmR.png"
     },
     {
-      "title": "Fractured: Roadwood Stop",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://fenixapple.itch.io/fractured-roadwood-stop",
-      "category": "Game",
-      "expiryDate": "2026-06-08T11:35:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI2MTMzMDc4LnBuZw==/315x250%23c/9Vbt7e.png"
-    },
-    {
       "title": "Do You Have a Moment to Talk About Our Lord and Savior?",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -209,6 +191,15 @@
       "category": "Game",
       "expiryDate": "2026-05-28T09:59:00.000Z",
       "imageUrl": "https://img.itch.zone/aW1nLzE4MDY2NzIyLmpwZWc=/315x250%23c/vGnSSV.jpeg"
+    },
+    {
+      "title": "Fractured: Roadwood Stop",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://fenixapple.itch.io/fractured-roadwood-stop",
+      "category": "Game",
+      "expiryDate": "2026-06-08T11:35:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzI2MTMzMDc4LnBuZw==/315x250%23c/9Vbt7e.png"
     },
     {
       "title": "Gamers Club Repeat",
@@ -274,15 +265,6 @@
       "imageUrl": "https://img.itch.zone/aW1nLzI1ODYxNjIyLnBuZw==/315x250%23c/5xN9NN.png"
     },
     {
-      "title": "The Uninvited",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://vladislive-dev.itch.io/the-uninvited",
-      "category": "Game",
-      "expiryDate": "2026-05-31T22:40:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI0OTY1NzA1LnBuZw==/315x250%23c/WW4Q3n.png"
-    },
-    {
       "title": "Eternal Night",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -290,6 +272,15 @@
       "category": "Game",
       "expiryDate": "2026-05-31T22:40:00.000Z",
       "imageUrl": "https://img.itch.zone/aW1nLzI0ODM0NjYxLnBuZw==/315x250%23c/0vV793.png"
+    },
+    {
+      "title": "The Uninvited",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://vladislive-dev.itch.io/the-uninvited",
+      "category": "Game",
+      "expiryDate": "2026-05-31T22:40:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzI0OTY1NzA1LnBuZw==/315x250%23c/WW4Q3n.png"
     },
     {
       "title": "Burnt",
@@ -344,15 +335,6 @@
       "category": "Game",
       "expiryDate": "2026-06-01T13:55:00.000Z",
       "imageUrl": "https://img.itch.zone/aW1nLzI2Mzg0OTA1LnBuZw==/315x250%23c/8y2Wow.png"
-    },
-    {
-      "title": "Evertrust Life And Beyond (Full Game)",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://after-life-craft.itch.io/evertrust-life-beyond",
-      "category": "Game",
-      "expiryDate": "2026-06-21T07:30:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI2NjA3OTM3LnBuZw==/315x250%23c/1AiyLq.png"
     },
     {
       "title": "Bunny Guys!",
