@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-28T02:29:00.353Z",
+  "lastUpdated": "2026-05-28T06:37:26.382Z",
   "deals": [
     {
       "title": "Down in Bermuda",
@@ -85,15 +85,6 @@
       "imageUrl": "https://img.itch.zone/aW1nLzIxODA4NzExLnBuZw==/315x250%23c/WprMWe.png"
     },
     {
-      "title": "Metanet Hunter G4",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://nightkawata.itch.io/metanet-hunter-g4",
-      "category": "Game",
-      "expiryDate": "2026-05-31T04:24:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzM4MTYxMjkuanBn/315x250%23c/7%2ByvvW.jpg"
-    },
-    {
       "title": "Pigeon West: Call Of Gun. ISEKAI",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -103,13 +94,13 @@
       "imageUrl": "https://img.itch.zone/aW1nLzIwMzA1NjU5LmpwZw==/315x250%23c/1wj2sv.jpg"
     },
     {
-      "title": "Red Margins",
+      "title": "Metanet Hunter G4",
       "platform": "Itch.io",
       "originalPrice": "N/A",
-      "link": "https://vladislive-dev.itch.io/unseen-red-margins",
+      "link": "https://nightkawata.itch.io/metanet-hunter-g4",
       "category": "Game",
-      "expiryDate": "2026-05-31T22:40:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI2OTYxMjI3LnBuZw==/315x250%23c/EZruFL.png"
+      "expiryDate": "2026-05-31T04:24:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzM4MTYxMjkuanBn/315x250%23c/7%2ByvvW.jpg"
     },
     {
       "title": "Rose and Cross",
@@ -119,6 +110,15 @@
       "category": "Game",
       "expiryDate": "2026-05-31T15:18:00.000Z",
       "imageUrl": "https://img.itch.zone/aW1nLzI0MjYyNzA4LnBuZw==/315x250%23c/r0UrdV.png"
+    },
+    {
+      "title": "Red Margins",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://vladislive-dev.itch.io/unseen-red-margins",
+      "category": "Game",
+      "expiryDate": "2026-05-31T22:40:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzI2OTYxMjI3LnBuZw==/315x250%23c/EZruFL.png"
     },
     {
       "title": "Wasteland Alone",
@@ -148,15 +148,6 @@
       "imageUrl": "https://img.itch.zone/aW1nLzI0NzYzMjU4LnBuZw==/315x250%23c/RBY7ZJ.png"
     },
     {
-      "title": "THE MIDNIGHT BUS",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://itandfeel.itch.io/the-midnight-bus",
-      "category": "Game",
-      "expiryDate": "2026-06-03T20:40:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzE2NzQ5ODExLnBuZw==/315x250%23c/BXy8h%2F.png"
-    },
-    {
       "title": "Follower",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -164,6 +155,15 @@
       "category": "Game",
       "expiryDate": "2026-05-30T18:30:00.000Z",
       "imageUrl": "https://img.itch.zone/aW1nLzI0NzYzMTgxLnBuZw==/315x250%23c/7FA%2B1%2B.png"
+    },
+    {
+      "title": "THE MIDNIGHT BUS",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://itandfeel.itch.io/the-midnight-bus",
+      "category": "Game",
+      "expiryDate": "2026-06-03T20:40:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzE2NzQ5ODExLnBuZw==/315x250%23c/BXy8h%2F.png"
     },
     {
       "title": "Cherophobia",
@@ -175,15 +175,6 @@
       "imageUrl": "https://img.itch.zone/aW1nLzE1OTgwMjk2LmpwZw==/315x250%23c/OIQ5Ad.jpg"
     },
     {
-      "title": "Pigeon West: Johnny the Pigeon",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://squidsquadpapi.itch.io/johnny-the-pigeon",
-      "category": "Game",
-      "expiryDate": "2026-06-01T19:54:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzE1NDI3NTA2LnBuZw==/315x250%23c/E0ZkTJ.png"
-    },
-    {
       "title": "Storefront",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -191,6 +182,15 @@
       "category": "Game",
       "expiryDate": "2026-05-30T18:30:00.000Z",
       "imageUrl": "https://img.itch.zone/aW1nLzI0NzYzMjQ2LnBuZw==/315x250%23c/cd8TmR.png"
+    },
+    {
+      "title": "Pigeon West: Johnny the Pigeon",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://squidsquadpapi.itch.io/johnny-the-pigeon",
+      "category": "Game",
+      "expiryDate": "2026-06-01T19:54:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzE1NDI3NTA2LnBuZw==/315x250%23c/E0ZkTJ.png"
     },
     {
       "title": "Gamers Club Repeat",
@@ -238,15 +238,6 @@
       "imageUrl": "https://img.itch.zone/aW1nLzE2MTQxNjgzLnBuZw==/315x250%23c/ntsdWD.png"
     },
     {
-      "title": "Fractured: The Cast",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://fenixapple.itch.io/fractured",
-      "category": "Game",
-      "expiryDate": "2026-06-08T11:35:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI2MTMzMDc0LnBuZw==/315x250%23c/hrUHTd.png"
-    },
-    {
       "title": "Burnt",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -256,13 +247,13 @@
       "imageUrl": "https://img.itch.zone/aW1nLzIyNDYzNTk0LnBuZw==/315x250%23c/bmFhXb.png"
     },
     {
-      "title": "MiniColonyAdventures – Build, Expand & Survive",
+      "title": "Fractured: The Cast",
       "platform": "Itch.io",
       "originalPrice": "N/A",
-      "link": "https://gamebuegar.itch.io/colonyadventure",
+      "link": "https://fenixapple.itch.io/fractured",
       "category": "Game",
-      "expiryDate": "2026-06-01T13:55:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI1ODYxNjIyLnBuZw==/315x250%23c/5xN9NN.png"
+      "expiryDate": "2026-06-08T11:35:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzI2MTMzMDc0LnBuZw==/315x250%23c/hrUHTd.png"
     },
     {
       "title": "Do You Have a Moment to Talk About Our Lord and Savior?",
@@ -272,6 +263,15 @@
       "category": "Game",
       "expiryDate": "2026-05-28T09:59:00.000Z",
       "imageUrl": "https://img.itch.zone/aW1nLzE4MDY2NzIyLmpwZWc=/315x250%23c/vGnSSV.jpeg"
+    },
+    {
+      "title": "MiniColonyAdventures – Build, Expand & Survive",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://gamebuegar.itch.io/colonyadventure",
+      "category": "Game",
+      "expiryDate": "2026-06-01T13:55:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzI1ODYxNjIyLnBuZw==/315x250%23c/5xN9NN.png"
     },
     {
       "title": "Sonambula",
