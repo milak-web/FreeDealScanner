@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-28T06:37:26.382Z",
+  "lastUpdated": "2026-05-28T10:47:48.722Z",
   "deals": [
     {
       "title": "Down in Bermuda",
@@ -20,15 +20,6 @@
       "startDate": "2026-05-21T15:00:00.000Z",
       "expiryDate": "2026-05-28T15:00:00.000Z",
       "imageUrl": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Wide_2560x1440-8d4d3759851d462299fc4c6cf13643b2"
-    },
-    {
-      "title": "Warhammer 40,000: Gladius - Relics of War",
-      "platform": "Steam",
-      "originalPrice": "$39.99",
-      "link": "https://store.steampowered.com/app/489630/Warhammer_40000_Gladius__Relics_of_War",
-      "category": "Game",
-      "imageUrl": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/489630/header.jpg",
-      "expiryDate": "2026-05-28T09:00:00.000Z"
     },
     {
       "title": "Open House",
@@ -76,13 +67,13 @@
       "imageUrl": "https://img.itch.zone/aW1nLzU5NTQ1MzAuanBn/315x250%23c/jN76fr.jpg"
     },
     {
-      "title": "Terminal Descent",
+      "title": "Metanet Hunter G4",
       "platform": "Itch.io",
       "originalPrice": "N/A",
-      "link": "https://roxicaro.itch.io/terminal-descent",
+      "link": "https://nightkawata.itch.io/metanet-hunter-g4",
       "category": "Game",
-      "expiryDate": "2026-06-08T16:36:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzIxODA4NzExLnBuZw==/315x250%23c/WprMWe.png"
+      "expiryDate": "2026-05-31T04:24:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzM4MTYxMjkuanBn/315x250%23c/7%2ByvvW.jpg"
     },
     {
       "title": "Pigeon West: Call Of Gun. ISEKAI",
@@ -94,13 +85,13 @@
       "imageUrl": "https://img.itch.zone/aW1nLzIwMzA1NjU5LmpwZw==/315x250%23c/1wj2sv.jpg"
     },
     {
-      "title": "Metanet Hunter G4",
+      "title": "Terminal Descent",
       "platform": "Itch.io",
       "originalPrice": "N/A",
-      "link": "https://nightkawata.itch.io/metanet-hunter-g4",
+      "link": "https://roxicaro.itch.io/terminal-descent",
       "category": "Game",
-      "expiryDate": "2026-05-31T04:24:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzM4MTYxMjkuanBn/315x250%23c/7%2ByvvW.jpg"
+      "expiryDate": "2026-06-08T16:36:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzIxODA4NzExLnBuZw==/315x250%23c/WprMWe.png"
     },
     {
       "title": "Rose and Cross",
@@ -112,13 +103,22 @@
       "imageUrl": "https://img.itch.zone/aW1nLzI0MjYyNzA4LnBuZw==/315x250%23c/r0UrdV.png"
     },
     {
-      "title": "Red Margins",
+      "title": "MiniColonyAdventures – Build, Expand & Survive",
       "platform": "Itch.io",
       "originalPrice": "N/A",
-      "link": "https://vladislive-dev.itch.io/unseen-red-margins",
+      "link": "https://gamebuegar.itch.io/colonyadventure",
       "category": "Game",
-      "expiryDate": "2026-05-31T22:40:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI2OTYxMjI3LnBuZw==/315x250%23c/EZruFL.png"
+      "expiryDate": "2026-06-01T13:55:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzI1ODYxNjIyLnBuZw==/315x250%23c/5xN9NN.png"
+    },
+    {
+      "title": "Late Stops",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://grantrimi.itch.io/late-stops",
+      "category": "Game",
+      "expiryDate": "2026-05-30T18:30:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzI0NzYzMjU4LnBuZw==/315x250%23c/RBY7ZJ.png"
     },
     {
       "title": "Wasteland Alone",
@@ -130,6 +130,15 @@
       "imageUrl": "https://img.itch.zone/aW1nLzI0ODUxMTkwLnBuZw==/315x250%23c/yVjMg0.png"
     },
     {
+      "title": "Red Margins",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://vladislive-dev.itch.io/unseen-red-margins",
+      "category": "Game",
+      "expiryDate": "2026-05-31T22:40:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzI2OTYxMjI3LnBuZw==/315x250%23c/EZruFL.png"
+    },
+    {
       "title": "Pigeon West: El Diablo",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -137,15 +146,6 @@
       "category": "Game",
       "expiryDate": "2026-06-01T19:54:00.000Z",
       "imageUrl": "https://img.itch.zone/aW1nLzIwMzIyOTU4LnBuZw==/315x250%23c/9PMidy.png"
-    },
-    {
-      "title": "Late Stops",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://grantrimi.itch.io/late-stops",
-      "category": "Game",
-      "expiryDate": "2026-05-30T18:30:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI0NzYzMjU4LnBuZw==/315x250%23c/RBY7ZJ.png"
     },
     {
       "title": "Follower",
@@ -164,15 +164,6 @@
       "category": "Game",
       "expiryDate": "2026-06-03T20:40:00.000Z",
       "imageUrl": "https://img.itch.zone/aW1nLzE2NzQ5ODExLnBuZw==/315x250%23c/BXy8h%2F.png"
-    },
-    {
-      "title": "Cherophobia",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://worsteventgames.itch.io/cherophobia",
-      "category": "Game",
-      "expiryDate": "2026-05-28T09:59:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzE1OTgwMjk2LmpwZw==/315x250%23c/OIQ5Ad.jpg"
     },
     {
       "title": "Storefront",
@@ -200,15 +191,6 @@
       "category": "Game",
       "expiryDate": "2026-06-04T02:37:00.000Z",
       "imageUrl": "https://img.itch.zone/aW1nLzI3MTA2MTMyLnBuZw==/315x250%23c/mdKj0%2F.png"
-    },
-    {
-      "title": "Worst Wifey (ワル嫁)",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://worsteventgames.itch.io/worst-wifey",
-      "category": "Game",
-      "expiryDate": "2026-05-28T09:59:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI1MjQzNTc0LnBuZw==/315x250%23c/QTCS9w.png"
     },
     {
       "title": "Fractured: Roadwood Stop",
@@ -256,24 +238,6 @@
       "imageUrl": "https://img.itch.zone/aW1nLzI2MTMzMDc0LnBuZw==/315x250%23c/hrUHTd.png"
     },
     {
-      "title": "Do You Have a Moment to Talk About Our Lord and Savior?",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://worsteventgames.itch.io/do-you-have-a-moment-to-talk-about-our-lord-and-savior",
-      "category": "Game",
-      "expiryDate": "2026-05-28T09:59:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzE4MDY2NzIyLmpwZWc=/315x250%23c/vGnSSV.jpeg"
-    },
-    {
-      "title": "MiniColonyAdventures – Build, Expand & Survive",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://gamebuegar.itch.io/colonyadventure",
-      "category": "Game",
-      "expiryDate": "2026-06-01T13:55:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI1ODYxNjIyLnBuZw==/315x250%23c/5xN9NN.png"
-    },
-    {
       "title": "Sonambula",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -310,15 +274,6 @@
       "imageUrl": "https://img.itch.zone/aW1nLzI0ODM0NjYxLnBuZw==/315x250%23c/0vV793.png"
     },
     {
-      "title": "Very Realistic Game Dev Simulator",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://worsteventgames.itch.io/very-realistic-game-dev-simulator",
-      "category": "Game",
-      "expiryDate": "2026-05-28T09:59:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzIzMDIwMDUwLnBuZw==/315x250%23c/%2BObOOm.png"
-    },
-    {
       "title": "BoxShift (Offical)",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -337,15 +292,6 @@
       "imageUrl": "https://img.itch.zone/aW1nLzI2Mzg0OTA1LnBuZw==/315x250%23c/8y2Wow.png"
     },
     {
-      "title": "DON’T DO IT",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://worsteventgames.itch.io/dont-do-it",
-      "category": "Game",
-      "expiryDate": "2026-05-28T09:59:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI1NDk4ODU5LnBuZw==/315x250%23c/lnPQmw.png"
-    },
-    {
       "title": "Bunny Guys!",
       "platform": "Steam",
       "originalPrice": "$4.99",
@@ -353,6 +299,15 @@
       "category": "Game",
       "expiryDate": "2026-05-29T23:59:00.000Z",
       "imageUrl": "https://www.gamerpower.com/offers/1/6a109043243f5.jpg"
+    },
+    {
+      "title": "Warhammer 40,000: Gladius - Relics of War",
+      "platform": "Steam",
+      "originalPrice": "$39.99",
+      "link": "https://store.steampowered.com/app/489630/Warhammer_40000_Gladius__Relics_of_War",
+      "category": "Game",
+      "expiryDate": "2026-05-28T23:59:00.000Z",
+      "imageUrl": "https://www.gamerpower.com/offers/1/646f9975b9fea.jpg"
     },
     {
       "title": "Monument Valley 3",
