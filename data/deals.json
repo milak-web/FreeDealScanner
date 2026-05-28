@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-28T17:58:39.548Z",
+  "lastUpdated": "2026-05-28T20:26:21.215Z",
   "deals": [
     {
       "title": "LONESTAR",
@@ -38,6 +38,15 @@
       "category": "Game",
       "expiryDate": "2026-05-31T23:34:00.000Z",
       "imageUrl": "https://img.itch.zone/aW1nLzI3NTM1NjcyLnBuZw==/315x250%23c/qE4twu.png"
+    },
+    {
+      "title": "Fear Assessment",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://alexander-wiseman.itch.io/fear-assessment",
+      "category": "Game",
+      "expiryDate": "2026-06-11T18:08:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzIxMTk0MDU2LmdpZg==/315x250%23c/C%2BuC%2FL.gif"
     },
     {
       "title": "Night Clerk",
@@ -243,7 +252,7 @@
       "originalPrice": "N/A",
       "link": "https://hexnut-studios.itch.io/lord-of-chaos",
       "category": "Game",
-      "expiryDate": "2026-05-30T17:00:00.000Z",
+      "expiryDate": "2026-06-01T17:00:00.000Z",
       "imageUrl": "https://img.itch.zone/aW1nLzI3MDc3Njg2LnBuZw==/315x250%23c/H8FO0W.png"
     },
     {
@@ -281,24 +290,6 @@
       "category": "Game",
       "expiryDate": "2026-06-01T06:25:00.000Z",
       "imageUrl": "https://img.itch.zone/aW1nLzI0ODQ2NTMyLnBuZw==/315x250%23c/MZTd7Z.png"
-    },
-    {
-      "title": "Static Voice",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://kadderagames.itch.io/static-voice",
-      "category": "Game",
-      "expiryDate": "2026-05-29T07:47:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI0NTgwNjE0LnBuZw==/315x250%23c/ees3jN.png"
-    },
-    {
-      "title": "The Dark Retributionist",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://al3cs71.itch.io/the-dark-retributionist",
-      "category": "Game",
-      "expiryDate": "2026-06-14T23:03:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzczMzU3MzAucG5n/315x250%23c/YKbk%2Fa.png"
     },
     {
       "title": "Drift86",
