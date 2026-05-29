@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-29T17:29:18.075Z",
+  "lastUpdated": "2026-05-29T19:53:44.363Z",
   "deals": [
     {
       "title": "LONESTAR",
@@ -22,15 +22,6 @@
       "imageUrl": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/EGS_s2_2560x1440-79182ef9c56c44af95ab38b0a2c46329"
     },
     {
-      "title": "The Cleaning Incident",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://chodex-productions.itch.io/the-cleaning-incident",
-      "category": "Game",
-      "expiryDate": "2026-05-31T23:34:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI3NTM1NjcyLnBuZw==/315x250%23c/qE4twu.png"
-    },
-    {
       "title": "Open House",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -38,6 +29,15 @@
       "category": "Game",
       "expiryDate": "2026-05-30T18:30:00.000Z",
       "imageUrl": "https://img.itch.zone/aW1nLzI2OTI3OTE0LnBuZw==/315x250%23c/vb1nbP.png"
+    },
+    {
+      "title": "The Cleaning Incident",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://chodex-productions.itch.io/the-cleaning-incident",
+      "category": "Game",
+      "expiryDate": "2026-05-31T23:34:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzI3NTM1NjcyLnBuZw==/315x250%23c/qE4twu.png"
     },
     {
       "title": "Fear Assessment",
@@ -112,15 +112,6 @@
       "imageUrl": "https://img.itch.zone/aW1nLzM4MTYxMjkuanBn/315x250%23c/7%2ByvvW.jpg"
     },
     {
-      "title": "Terminal Descent",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://roxicaro.itch.io/terminal-descent",
-      "category": "Game",
-      "expiryDate": "2026-06-08T16:36:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzIxODA4NzExLnBuZw==/315x250%23c/WprMWe.png"
-    },
-    {
       "title": "Late Stops",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -128,6 +119,15 @@
       "category": "Game",
       "expiryDate": "2026-05-30T18:30:00.000Z",
       "imageUrl": "https://img.itch.zone/aW1nLzI0NzYzMjU4LnBuZw==/315x250%23c/RBY7ZJ.png"
+    },
+    {
+      "title": "Terminal Descent",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://roxicaro.itch.io/terminal-descent",
+      "category": "Game",
+      "expiryDate": "2026-06-08T16:36:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzIxODA4NzExLnBuZw==/315x250%23c/WprMWe.png"
     },
     {
       "title": "Pigeon West: El Diablo",
@@ -139,15 +139,6 @@
       "imageUrl": "https://img.itch.zone/aW1nLzIwMzIyOTU4LnBuZw==/315x250%23c/9PMidy.png"
     },
     {
-      "title": "Pigeon West: Johnny the Pigeon",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://squidsquadpapi.itch.io/johnny-the-pigeon",
-      "category": "Game",
-      "expiryDate": "2026-06-01T19:54:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzE1NDI3NTA2LnBuZw==/315x250%23c/E0ZkTJ.png"
-    },
-    {
       "title": "Follower",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -157,13 +148,13 @@
       "imageUrl": "https://img.itch.zone/aW1nLzI0NzYzMTgxLnBuZw==/315x250%23c/7FA%2B1%2B.png"
     },
     {
-      "title": "Red Margins",
+      "title": "Pigeon West: Johnny the Pigeon",
       "platform": "Itch.io",
       "originalPrice": "N/A",
-      "link": "https://vladislive-dev.itch.io/unseen-red-margins",
+      "link": "https://squidsquadpapi.itch.io/johnny-the-pigeon",
       "category": "Game",
-      "expiryDate": "2026-05-31T22:40:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI2OTYxMjI3LnBuZw==/315x250%23c/EZruFL.png"
+      "expiryDate": "2026-06-01T19:54:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzE1NDI3NTA2LnBuZw==/315x250%23c/E0ZkTJ.png"
     },
     {
       "title": "Rose and Cross",
@@ -175,13 +166,22 @@
       "imageUrl": "https://img.itch.zone/aW1nLzI0MjYyNzA4LnBuZw==/315x250%23c/r0UrdV.png"
     },
     {
-      "title": "THE MIDNIGHT BUS",
+      "title": "Red Margins",
       "platform": "Itch.io",
       "originalPrice": "N/A",
-      "link": "https://itandfeel.itch.io/the-midnight-bus",
+      "link": "https://vladislive-dev.itch.io/unseen-red-margins",
       "category": "Game",
-      "expiryDate": "2026-06-03T20:40:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzE2NzQ5ODExLnBuZw==/315x250%23c/BXy8h%2F.png"
+      "expiryDate": "2026-05-31T22:40:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzI2OTYxMjI3LnBuZw==/315x250%23c/EZruFL.png"
+    },
+    {
+      "title": "Backrooms Crawlers",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://worsteventgames.itch.io/backrooms-crawlers",
+      "category": "Game",
+      "expiryDate": "2026-05-31T16:14:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzI3MTcwMzA2LnBuZw==/315x250%23c/Zd2zRm.png"
     },
     {
       "title": "Storefront",
@@ -193,6 +193,15 @@
       "imageUrl": "https://img.itch.zone/aW1nLzI0NzYzMjQ2LnBuZw==/315x250%23c/cd8TmR.png"
     },
     {
+      "title": "THE MIDNIGHT BUS",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://itandfeel.itch.io/the-midnight-bus",
+      "category": "Game",
+      "expiryDate": "2026-06-03T20:40:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzE2NzQ5ODExLnBuZw==/315x250%23c/BXy8h%2F.png"
+    },
+    {
       "title": "Wasteland Alone",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -200,15 +209,6 @@
       "category": "Game",
       "expiryDate": "2026-06-26T23:23:00.000Z",
       "imageUrl": "https://img.itch.zone/aW1nLzI0ODUxMTkwLnBuZw==/315x250%23c/yVjMg0.png"
-    },
-    {
-      "title": "Backrooms Crawlers",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://worsteventgames.itch.io/backrooms-crawlers",
-      "category": "Game",
-      "expiryDate": "2026-05-31T16:14:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI3MTcwMzA2LnBuZw==/315x250%23c/Zd2zRm.png"
     },
     {
       "title": "Gamers Club Repeat",
@@ -326,15 +326,6 @@
       "category": "Mobile",
       "expiryDate": "2026-06-04T23:59:00.000Z",
       "imageUrl": "https://www.gamerpower.com/offers/1/6a185cc43a9e0.jpg"
-    },
-    {
-      "title": "Bunny Guys!",
-      "platform": "Steam",
-      "originalPrice": "$4.99",
-      "link": "https://store.steampowered.com/app/2218460/Bunny_Guys",
-      "category": "Game",
-      "expiryDate": "2026-05-29T23:59:00.000Z",
-      "imageUrl": "https://www.gamerpower.com/offers/1/6a109043243f5.jpg"
     },
     {
       "title": "Dino running from a FURRY: GAMESFORFARM",
