@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-29T06:47:55.719Z",
+  "lastUpdated": "2026-05-29T10:39:37.272Z",
   "deals": [
     {
       "title": "LONESTAR",
@@ -22,15 +22,6 @@
       "imageUrl": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/EGS_s2_2560x1440-79182ef9c56c44af95ab38b0a2c46329"
     },
     {
-      "title": "Open House",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://grantrimi.itch.io/open-house",
-      "category": "Game",
-      "expiryDate": "2026-05-30T18:30:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI2OTI3OTE0LnBuZw==/315x250%23c/vb1nbP.png"
-    },
-    {
       "title": "The Cleaning Incident",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -38,6 +29,15 @@
       "category": "Game",
       "expiryDate": "2026-05-31T23:34:00.000Z",
       "imageUrl": "https://img.itch.zone/aW1nLzI3NTM1NjcyLnBuZw==/315x250%23c/qE4twu.png"
+    },
+    {
+      "title": "Open House",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://grantrimi.itch.io/open-house",
+      "category": "Game",
+      "expiryDate": "2026-05-30T18:30:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzI2OTI3OTE0LnBuZw==/315x250%23c/vb1nbP.png"
     },
     {
       "title": "Fear Assessment",
@@ -157,13 +157,13 @@
       "imageUrl": "https://img.itch.zone/aW1nLzI0NzYzMTgxLnBuZw==/315x250%23c/7FA%2B1%2B.png"
     },
     {
-      "title": "Storefront",
+      "title": "Pigeon West: Johnny the Pigeon",
       "platform": "Itch.io",
       "originalPrice": "N/A",
-      "link": "https://grantrimi.itch.io/storefront",
+      "link": "https://squidsquadpapi.itch.io/johnny-the-pigeon",
       "category": "Game",
-      "expiryDate": "2026-05-30T18:30:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI0NzYzMjQ2LnBuZw==/315x250%23c/cd8TmR.png"
+      "expiryDate": "2026-06-01T19:54:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzE1NDI3NTA2LnBuZw==/315x250%23c/E0ZkTJ.png"
     },
     {
       "title": "Rose and Cross",
@@ -175,6 +175,15 @@
       "imageUrl": "https://img.itch.zone/aW1nLzI0MjYyNzA4LnBuZw==/315x250%23c/r0UrdV.png"
     },
     {
+      "title": "Storefront",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://grantrimi.itch.io/storefront",
+      "category": "Game",
+      "expiryDate": "2026-05-30T18:30:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzI0NzYzMjQ2LnBuZw==/315x250%23c/cd8TmR.png"
+    },
+    {
       "title": "THE MIDNIGHT BUS",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -184,13 +193,13 @@
       "imageUrl": "https://img.itch.zone/aW1nLzE2NzQ5ODExLnBuZw==/315x250%23c/BXy8h%2F.png"
     },
     {
-      "title": "Pigeon West: Johnny the Pigeon",
+      "title": "Wasteland Alone",
       "platform": "Itch.io",
       "originalPrice": "N/A",
-      "link": "https://squidsquadpapi.itch.io/johnny-the-pigeon",
+      "link": "https://vladislive-dev.itch.io/wasteland-alone",
       "category": "Game",
-      "expiryDate": "2026-06-01T19:54:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzE1NDI3NTA2LnBuZw==/315x250%23c/E0ZkTJ.png"
+      "expiryDate": "2026-06-26T23:23:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzI0ODUxMTkwLnBuZw==/315x250%23c/yVjMg0.png"
     },
     {
       "title": "Gamers Club Repeat",
@@ -200,15 +209,6 @@
       "category": "Game",
       "expiryDate": "2026-06-04T02:37:00.000Z",
       "imageUrl": "https://img.itch.zone/aW1nLzI3MTA2MTMyLnBuZw==/315x250%23c/mdKj0%2F.png"
-    },
-    {
-      "title": "Wasteland Alone",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://vladislive-dev.itch.io/wasteland-alone",
-      "category": "Game",
-      "expiryDate": "2026-06-26T23:23:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI0ODUxMTkwLnBuZw==/315x250%23c/yVjMg0.png"
     },
     {
       "title": "Silent Still 3",
@@ -229,15 +229,6 @@
       "imageUrl": "https://img.itch.zone/aW1nLzI2MTMzMDc0LnBuZw==/315x250%23c/hrUHTd.png"
     },
     {
-      "title": "Burnt",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://sleepycatstudio.itch.io/burnt",
-      "category": "Game",
-      "expiryDate": "2026-05-31T20:59:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzIyNDYzNTk0LnBuZw==/315x250%23c/bmFhXb.png"
-    },
-    {
       "title": "Fractured: Roadwood Stop",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -247,13 +238,13 @@
       "imageUrl": "https://img.itch.zone/aW1nLzI2MTMzMDc4LnBuZw==/315x250%23c/9Vbt7e.png"
     },
     {
-      "title": "Sonambula",
+      "title": "Burnt",
       "platform": "Itch.io",
       "originalPrice": "N/A",
-      "link": "https://fenixapple.itch.io/sonambula",
+      "link": "https://sleepycatstudio.itch.io/burnt",
       "category": "Game",
-      "expiryDate": "2026-06-08T11:35:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI2MTI4Mjg3LnBuZw==/315x250%23c/JzUzi%2B.png"
+      "expiryDate": "2026-05-31T20:59:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzIyNDYzNTk0LnBuZw==/315x250%23c/bmFhXb.png"
     },
     {
       "title": "Backrooms Crawlers",
@@ -263,6 +254,15 @@
       "category": "Game",
       "expiryDate": "2026-05-31T16:14:00.000Z",
       "imageUrl": "https://img.itch.zone/aW1nLzI3MTcwMzA2LnBuZw==/315x250%23c/Zd2zRm.png"
+    },
+    {
+      "title": "Sonambula",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://fenixapple.itch.io/sonambula",
+      "category": "Game",
+      "expiryDate": "2026-06-08T11:35:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzI2MTI4Mjg3LnBuZw==/315x250%23c/JzUzi%2B.png"
     },
     {
       "title": "Duskoryx",
@@ -283,6 +283,15 @@
       "imageUrl": "https://img.itch.zone/aW1nLzI0OTY1NzA1LnBuZw==/315x250%23c/WW4Q3n.png"
     },
     {
+      "title": "Lord of Chaos",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://hexnut-studios.itch.io/lord-of-chaos",
+      "category": "Game",
+      "expiryDate": "2026-06-01T17:00:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzI3MDc3Njg2LnBuZw==/315x250%23c/H8FO0W.png"
+    },
+    {
       "title": "Eternal Night",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -292,13 +301,13 @@
       "imageUrl": "https://img.itch.zone/aW1nLzI0ODM0NjYxLnBuZw==/315x250%23c/0vV793.png"
     },
     {
-      "title": "Lord of Chaos",
+      "title": "ChoronosCityAİDetective",
       "platform": "Itch.io",
       "originalPrice": "N/A",
-      "link": "https://hexnut-studios.itch.io/lord-of-chaos",
+      "link": "https://gamebuegar.itch.io/choronoscityadetective",
       "category": "Game",
-      "expiryDate": "2026-06-01T17:00:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI3MDc3Njg2LnBuZw==/315x250%23c/H8FO0W.png"
+      "expiryDate": "2026-06-01T13:55:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzI2Mzg0OTA1LnBuZw==/315x250%23c/8y2Wow.png"
     },
     {
       "title": "Drift86",
