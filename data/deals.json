@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-30T08:01:18.042Z",
+  "lastUpdated": "2026-05-30T10:21:50.241Z",
   "deals": [
     {
       "title": "LONESTAR",
@@ -103,15 +103,6 @@
       "imageUrl": "https://img.itch.zone/aW1nLzIwMzA1NjU5LmpwZw==/315x250%23c/1wj2sv.jpg"
     },
     {
-      "title": "Metanet Hunter G4",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://nightkawata.itch.io/metanet-hunter-g4",
-      "category": "Game",
-      "expiryDate": "2026-05-31T04:24:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzM4MTYxMjkuanBn/315x250%23c/7%2ByvvW.jpg"
-    },
-    {
       "title": "Late Stops",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -119,6 +110,15 @@
       "category": "Game",
       "expiryDate": "2026-05-30T18:30:00.000Z",
       "imageUrl": "https://img.itch.zone/aW1nLzI0NzYzMjU4LnBuZw==/315x250%23c/RBY7ZJ.png"
+    },
+    {
+      "title": "Metanet Hunter G4",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://nightkawata.itch.io/metanet-hunter-g4",
+      "category": "Game",
+      "expiryDate": "2026-05-31T04:24:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzM4MTYxMjkuanBn/315x250%23c/7%2ByvvW.jpg"
     },
     {
       "title": "Pigeon West: Johnny the Pigeon",
@@ -157,15 +157,6 @@
       "imageUrl": "https://img.itch.zone/aW1nLzIxODA4NzExLnBuZw==/315x250%23c/WprMWe.png"
     },
     {
-      "title": "Red Margins",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://vladislive-dev.itch.io/unseen-red-margins",
-      "category": "Game",
-      "expiryDate": "2026-05-31T22:40:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI2OTYxMjI3LnBuZw==/315x250%23c/EZruFL.png"
-    },
-    {
       "title": "Backrooms Crawlers",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -182,6 +173,15 @@
       "category": "Game",
       "expiryDate": "2026-05-30T18:30:00.000Z",
       "imageUrl": "https://img.itch.zone/aW1nLzI0NzYzMjQ2LnBuZw==/315x250%23c/cd8TmR.png"
+    },
+    {
+      "title": "Red Margins",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://vladislive-dev.itch.io/unseen-red-margins",
+      "category": "Game",
+      "expiryDate": "2026-05-31T22:40:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzI2OTYxMjI3LnBuZw==/315x250%23c/EZruFL.png"
     },
     {
       "title": "Lord of Chaos",
@@ -220,13 +220,13 @@
       "imageUrl": "https://img.itch.zone/aW1nLzI3MTA2MTMyLnBuZw==/315x250%23c/mdKj0%2F.png"
     },
     {
-      "title": "Duskoryx",
+      "title": "Not A Customer",
       "platform": "Itch.io",
       "originalPrice": "N/A",
-      "link": "https://steelward-studio.itch.io/duskoryx",
+      "link": "https://opvgame-studio.itch.io/notacustomer",
       "category": "Game",
-      "expiryDate": "2026-06-04T15:15:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI3NDk0MTA0LnBuZw==/315x250%23c/mWB9Gp.png"
+      "expiryDate": "2026-06-01T23:00:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzI3MjMwMTk5LnBuZw==/315x250%23c/trdBIc.png"
     },
     {
       "title": "Silent Still 3",
@@ -236,6 +236,15 @@
       "category": "Game",
       "expiryDate": "2306-06-28T11:05:00.000Z",
       "imageUrl": "https://img.itch.zone/aW1nLzI1MTY3NjA5LmpwZw==/315x250%23c/3h0WMu.jpg"
+    },
+    {
+      "title": "Duskoryx",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://steelward-studio.itch.io/duskoryx",
+      "category": "Game",
+      "expiryDate": "2026-06-04T15:15:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzI3NDk0MTA0LnBuZw==/315x250%23c/mWB9Gp.png"
     },
     {
       "title": "Fractured: The Cast",
