@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-31T16:00:51.962Z",
+  "lastUpdated": "2026-05-31T17:35:42.366Z",
   "deals": [
     {
       "title": "LONESTAR",
@@ -103,15 +103,6 @@
       "imageUrl": "https://img.itch.zone/aW1nLzIwMzIyOTU4LnBuZw==/315x250%23c/9PMidy.png"
     },
     {
-      "title": "Terminal Descent",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://roxicaro.itch.io/terminal-descent",
-      "category": "Game",
-      "expiryDate": "2026-06-08T16:36:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzIxODA4NzExLnBuZw==/315x250%23c/WprMWe.png"
-    },
-    {
       "title": "THE MIDNIGHT BUS",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -121,13 +112,13 @@
       "imageUrl": "https://img.itch.zone/aW1nLzE2NzQ5ODExLnBuZw==/315x250%23c/BXy8h%2F.png"
     },
     {
-      "title": "Backrooms Crawlers",
+      "title": "Terminal Descent",
       "platform": "Itch.io",
       "originalPrice": "N/A",
-      "link": "https://worsteventgames.itch.io/backrooms-crawlers",
+      "link": "https://roxicaro.itch.io/terminal-descent",
       "category": "Game",
-      "expiryDate": "2026-05-31T16:14:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI3MTcwMzA2LnBuZw==/315x250%23c/Zd2zRm.png"
+      "expiryDate": "2026-06-08T16:36:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzIxODA4NzExLnBuZw==/315x250%23c/WprMWe.png"
     },
     {
       "title": "Lord of Chaos",
@@ -193,15 +184,6 @@
       "imageUrl": "https://img.itch.zone/aW1nLzI0ODM0NjYxLnBuZw==/315x250%23c/0vV793.png"
     },
     {
-      "title": "Duskoryx",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://steelward-studio.itch.io/duskoryx",
-      "category": "Game",
-      "expiryDate": "2026-06-04T15:15:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI3NDk0MTA0LnBuZw==/315x250%23c/mWB9Gp.png"
-    },
-    {
       "title": "NIGHT PUMP: A Horror Game Remake",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -247,6 +229,15 @@
       "imageUrl": "https://img.itch.zone/aW1nLzI2NjA3OTM3LnBuZw==/315x250%23c/1AiyLq.png"
     },
     {
+      "title": "Violetti Goottii",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://thewgreen.itch.io/violetti-goottii",
+      "category": "Game",
+      "expiryDate": "2026-06-10T20:53:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzY3MTU4NDUucG5n/315x250%23c/nT6ruI.png"
+    },
+    {
       "title": "Burnt",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -254,15 +245,6 @@
       "category": "Game",
       "expiryDate": "2026-05-31T20:59:00.000Z",
       "imageUrl": "https://img.itch.zone/aW1nLzIyNDYzNTk0LnBuZw==/315x250%23c/bmFhXb.png"
-    },
-    {
-      "title": "ChoronosCityAİDetective",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://gamebuegar.itch.io/choronoscityadetective",
-      "category": "Game",
-      "expiryDate": "2026-06-01T13:55:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI2Mzg0OTA1LnBuZw==/315x250%23c/8y2Wow.png"
     },
     {
       "title": "Moonrise Fall",
