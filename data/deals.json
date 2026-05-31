@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-31T02:48:04.312Z",
+  "lastUpdated": "2026-05-31T06:53:40.315Z",
   "deals": [
     {
       "title": "LONESTAR",
@@ -85,24 +85,6 @@
       "imageUrl": "https://img.itch.zone/aW1nLzIwMzA1NjU5LmpwZw==/315x250%23c/1wj2sv.jpg"
     },
     {
-      "title": "Not A Customer",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://opvgame-studio.itch.io/notacustomer",
-      "category": "Game",
-      "expiryDate": "2026-06-01T23:00:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI3MjMwMTk5LnBuZw==/315x250%23c/trdBIc.png"
-    },
-    {
-      "title": "Metanet Hunter G4",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://nightkawata.itch.io/metanet-hunter-g4",
-      "category": "Game",
-      "expiryDate": "2026-05-31T04:24:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzM4MTYxMjkuanBn/315x250%23c/7%2ByvvW.jpg"
-    },
-    {
       "title": "Pigeon West: Johnny the Pigeon",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -139,15 +121,6 @@
       "imageUrl": "https://img.itch.zone/aW1nLzIxODA4NzExLnBuZw==/315x250%23c/WprMWe.png"
     },
     {
-      "title": "Lord of Chaos",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://hexnut-studios.itch.io/lord-of-chaos",
-      "category": "Game",
-      "expiryDate": "2026-06-03T17:00:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI3MDc3Njg2LnBuZw==/315x250%23c/H8FO0W.png"
-    },
-    {
       "title": "THE MIDNIGHT BUS",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -157,15 +130,6 @@
       "imageUrl": "https://img.itch.zone/aW1nLzE2NzQ5ODExLnBuZw==/315x250%23c/BXy8h%2F.png"
     },
     {
-      "title": "Fractured: Roadwood Stop",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://fenixapple.itch.io/fractured-roadwood-stop",
-      "category": "Game",
-      "expiryDate": "2026-06-08T11:35:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI2MTMzMDc4LnBuZw==/315x250%23c/9Vbt7e.png"
-    },
-    {
       "title": "Rose and Cross",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -173,6 +137,24 @@
       "category": "Game",
       "expiryDate": "2026-05-31T15:18:00.000Z",
       "imageUrl": "https://img.itch.zone/aW1nLzI0MjYyNzA4LnBuZw==/315x250%23c/r0UrdV.png"
+    },
+    {
+      "title": "Lord of Chaos",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://hexnut-studios.itch.io/lord-of-chaos",
+      "category": "Game",
+      "expiryDate": "2026-06-03T17:00:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzI3MDc3Njg2LnBuZw==/315x250%23c/H8FO0W.png"
+    },
+    {
+      "title": "Fractured: Roadwood Stop",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://fenixapple.itch.io/fractured-roadwood-stop",
+      "category": "Game",
+      "expiryDate": "2026-06-08T11:35:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzI2MTMzMDc4LnBuZw==/315x250%23c/9Vbt7e.png"
     },
     {
       "title": "Red Margins",
@@ -211,15 +193,6 @@
       "imageUrl": "https://img.itch.zone/aW1nLzI0ODUxMTkwLnBuZw==/315x250%23c/yVjMg0.png"
     },
     {
-      "title": "Duskoryx",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://steelward-studio.itch.io/duskoryx",
-      "category": "Game",
-      "expiryDate": "2026-06-04T15:15:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI3NDk0MTA0LnBuZw==/315x250%23c/mWB9Gp.png"
-    },
-    {
       "title": "Silent Still 3",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -227,6 +200,15 @@
       "category": "Game",
       "expiryDate": "2306-06-28T11:05:00.000Z",
       "imageUrl": "https://img.itch.zone/aW1nLzI1MTY3NjA5LmpwZw==/315x250%23c/3h0WMu.jpg"
+    },
+    {
+      "title": "Duskoryx",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://steelward-studio.itch.io/duskoryx",
+      "category": "Game",
+      "expiryDate": "2026-06-04T15:15:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzI3NDk0MTA0LnBuZw==/315x250%23c/mWB9Gp.png"
     },
     {
       "title": "Eternal Night",
@@ -245,6 +227,15 @@
       "category": "Game",
       "expiryDate": "2026-06-08T11:35:00.000Z",
       "imageUrl": "https://img.itch.zone/aW1nLzI2MTI4Mjg3LnBuZw==/315x250%23c/JzUzi%2B.png"
+    },
+    {
+      "title": "NIGHT PUMP: A Horror Game Remake",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://mandran-interactive.itch.io/night-pump-remake",
+      "category": "Game",
+      "expiryDate": "2026-05-31T21:00:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzI3MzM5ODI1LnBuZw==/315x250%23c/Pr5oZB.png"
     },
     {
       "title": "The Uninvited",
@@ -272,15 +263,6 @@
       "category": "Game",
       "expiryDate": "2026-05-31T20:59:00.000Z",
       "imageUrl": "https://img.itch.zone/aW1nLzIyNDYzNTk0LnBuZw==/315x250%23c/bmFhXb.png"
-    },
-    {
-      "title": "NIGHT PUMP: A Horror Game Remake",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://mandran-interactive.itch.io/night-pump-remake",
-      "category": "Game",
-      "expiryDate": "2026-05-31T21:00:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI3MzM5ODI1LnBuZw==/315x250%23c/Pr5oZB.png"
     },
     {
       "title": "Moonrise Fall",
