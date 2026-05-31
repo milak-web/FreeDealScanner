@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-31T21:53:13.973Z",
+  "lastUpdated": "2026-05-31T22:53:02.135Z",
   "deals": [
     {
       "title": "LONESTAR",
@@ -166,42 +166,6 @@
       "imageUrl": "https://img.itch.zone/aW1nLzI3MTA2MTMyLnBuZw==/315x250%23c/mdKj0%2F.png"
     },
     {
-      "title": "Eternal Night",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://vladislive-dev.itch.io/eternal-night",
-      "category": "Game",
-      "expiryDate": "2026-05-31T22:40:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI0ODM0NjYxLnBuZw==/315x250%23c/0vV793.png"
-    },
-    {
-      "title": "Red Margins",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://vladislive-dev.itch.io/unseen-red-margins",
-      "category": "Game",
-      "expiryDate": "2026-05-31T22:40:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI2OTYxMjI3LnBuZw==/315x250%23c/EZruFL.png"
-    },
-    {
-      "title": "Exit Only",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://vladislive-dev.itch.io/exit-only",
-      "category": "Game",
-      "expiryDate": "2026-05-31T22:40:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzIzMzMyMzk0LnBuZw==/315x250%23c/kkNSz2.png"
-    },
-    {
-      "title": "The Uninvited",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://vladislive-dev.itch.io/the-uninvited",
-      "category": "Game",
-      "expiryDate": "2026-05-31T22:40:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI0OTY1NzA1LnBuZw==/315x250%23c/WW4Q3n.png"
-    },
-    {
       "title": "Liminal Lane",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -254,6 +218,42 @@
       "category": "Game",
       "expiryDate": "2026-06-01T06:25:00.000Z",
       "imageUrl": "https://img.itch.zone/aW1nLzI0ODQ2NTMyLnBuZw==/315x250%23c/MZTd7Z.png"
+    },
+    {
+      "title": "Five Nights at Freddy’s",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://leonardinoska.itch.io/five-nights-at-freddys",
+      "category": "Game",
+      "expiryDate": "2026-06-07T20:43:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzI1NDc3ODM4LmpwZw==/315x250%23c/5iQLSD.jpg"
+    },
+    {
+      "title": "DungeonDex 1.4",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://northline-studio.itch.io/dungeondex",
+      "category": "Game",
+      "expiryDate": "2026-06-01T20:33:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzI3NTQ0NDE3LnBuZw==/315x250%23c/5g2Ivq.png"
+    },
+    {
+      "title": "Calmed by the Dark Aftermath",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://calmed-by-the-dark-games.itch.io/calmed-by-the-dark-aftermath",
+      "category": "Game",
+      "expiryDate": "2026-06-29T03:00:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzM5OTA0MTYucG5n/315x250%23c/hFXacP.png"
+    },
+    {
+      "title": "Calmed by the Dark Neon",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://calmed-by-the-dark-games.itch.io/calmed-by-the-dark-neon",
+      "category": "Game",
+      "expiryDate": "2026-06-29T03:00:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzMwOTM4ODYucG5n/315x250%23c/6YLlGM.png"
     },
     {
       "title": "Moonrise Fall",
