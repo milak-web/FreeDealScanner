@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-31T12:58:40.173Z",
+  "lastUpdated": "2026-05-31T14:47:09.880Z",
   "deals": [
     {
       "title": "LONESTAR",
@@ -121,15 +121,6 @@
       "imageUrl": "https://img.itch.zone/aW1nLzIxODA4NzExLnBuZw==/315x250%23c/WprMWe.png"
     },
     {
-      "title": "Backrooms Crawlers",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://worsteventgames.itch.io/backrooms-crawlers",
-      "category": "Game",
-      "expiryDate": "2026-05-31T16:14:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI3MTcwMzA2LnBuZw==/315x250%23c/Zd2zRm.png"
-    },
-    {
       "title": "THE MIDNIGHT BUS",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -137,6 +128,15 @@
       "category": "Game",
       "expiryDate": "2026-06-03T20:40:00.000Z",
       "imageUrl": "https://img.itch.zone/aW1nLzE2NzQ5ODExLnBuZw==/315x250%23c/BXy8h%2F.png"
+    },
+    {
+      "title": "Backrooms Crawlers",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://worsteventgames.itch.io/backrooms-crawlers",
+      "category": "Game",
+      "expiryDate": "2026-05-31T16:14:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzI3MTcwMzA2LnBuZw==/315x250%23c/Zd2zRm.png"
     },
     {
       "title": "Lord of Chaos",
@@ -166,6 +166,15 @@
       "imageUrl": "https://img.itch.zone/aW1nLzI3MTA2MTMyLnBuZw==/315x250%23c/mdKj0%2F.png"
     },
     {
+      "title": "Wasteland Alone",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://vladislive-dev.itch.io/wasteland-alone",
+      "category": "Game",
+      "expiryDate": "2026-06-26T23:23:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzI0ODUxMTkwLnBuZw==/315x250%23c/yVjMg0.png"
+    },
+    {
       "title": "Red Margins",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -184,22 +193,13 @@
       "imageUrl": "https://img.itch.zone/aW1nLzI2MTMzMDc0LnBuZw==/315x250%23c/hrUHTd.png"
     },
     {
-      "title": "Wasteland Alone",
+      "title": "Eternal Night",
       "platform": "Itch.io",
       "originalPrice": "N/A",
-      "link": "https://vladislive-dev.itch.io/wasteland-alone",
+      "link": "https://vladislive-dev.itch.io/eternal-night",
       "category": "Game",
-      "expiryDate": "2026-06-26T23:23:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI0ODUxMTkwLnBuZw==/315x250%23c/yVjMg0.png"
-    },
-    {
-      "title": "Silent Still 3",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://solitarystudios.itch.io/silent-still-3",
-      "category": "Game",
-      "expiryDate": "2306-06-28T11:05:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI1MTY3NjA5LmpwZw==/315x250%23c/3h0WMu.jpg"
+      "expiryDate": "2026-05-31T22:40:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzI0ODM0NjYxLnBuZw==/315x250%23c/0vV793.png"
     },
     {
       "title": "Duskoryx",
@@ -209,15 +209,6 @@
       "category": "Game",
       "expiryDate": "2026-06-04T15:15:00.000Z",
       "imageUrl": "https://img.itch.zone/aW1nLzI3NDk0MTA0LnBuZw==/315x250%23c/mWB9Gp.png"
-    },
-    {
-      "title": "Eternal Night",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://vladislive-dev.itch.io/eternal-night",
-      "category": "Game",
-      "expiryDate": "2026-05-31T22:40:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI0ODM0NjYxLnBuZw==/315x250%23c/0vV793.png"
     },
     {
       "title": "NIGHT PUMP: A Horror Game Remake",
@@ -247,6 +238,15 @@
       "imageUrl": "https://img.itch.zone/aW1nLzI0OTY1NzA1LnBuZw==/315x250%23c/WW4Q3n.png"
     },
     {
+      "title": "Exit Only",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://vladislive-dev.itch.io/exit-only",
+      "category": "Game",
+      "expiryDate": "2026-05-31T22:40:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzIzMzMyMzk0LnBuZw==/315x250%23c/kkNSz2.png"
+    },
+    {
       "title": "Evertrust Life And Beyond (Full Game)",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -256,10 +256,19 @@
       "imageUrl": "https://img.itch.zone/aW1nLzI2NjA3OTM3LnBuZw==/315x250%23c/1AiyLq.png"
     },
     {
+      "title": "Burnt",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://sleepycatstudio.itch.io/burnt",
+      "category": "Game",
+      "expiryDate": "2026-05-31T20:59:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzIyNDYzNTk0LnBuZw==/315x250%23c/bmFhXb.png"
+    },
+    {
       "title": "Moonrise Fall",
       "platform": "Steam",
       "originalPrice": "$9.99",
-      "link": "https://store.steampowered.com/app/1035110/Moonrise_Fall",
+      "link": "https://www.gamerpower.com/open/moonrise-fall-steam-giveaway",
       "category": "Game",
       "expiryDate": "2026-06-02T23:59:00.000Z",
       "imageUrl": "https://www.gamerpower.com/offers/1/6a1b24ffbbc52.jpg"
@@ -268,7 +277,7 @@
       "title": "IQ Under Construction",
       "platform": "Steam",
       "originalPrice": "$2.99",
-      "link": "https://store.steampowered.com/app/3771740/IQ_Under_Construction",
+      "link": "https://www.gamerpower.com/open/iq-under-construction-steam-giveaway",
       "category": "Game",
       "expiryDate": "2026-06-01T23:59:00.000Z",
       "imageUrl": "https://www.gamerpower.com/offers/1/6a1b241f224c6.jpg"
@@ -277,7 +286,7 @@
       "title": "Bunny Guys!",
       "platform": "Epic Games",
       "originalPrice": "$4.99",
-      "link": "https://store.epicgames.com/p/bunny-guys-b325b1",
+      "link": "https://www.gamerpower.com/open/bunny-guys-epic-games-giveaway",
       "category": "Game",
       "expiryDate": "2026-06-05T23:59:00.000Z",
       "imageUrl": "https://www.gamerpower.com/offers/1/6a199f7d977ec.jpg"
@@ -286,7 +295,7 @@
       "title": "Drift86",
       "platform": "Steam",
       "originalPrice": "$1.99",
-      "link": "https://store.steampowered.com/app/1070580/Drift86",
+      "link": "https://www.gamerpower.com/open/drift86-steam-giveaway",
       "category": "Game",
       "expiryDate": "2026-06-03T23:59:00.000Z",
       "imageUrl": "https://www.gamerpower.com/offers/1/6a18680e56754.jpg"
@@ -295,7 +304,7 @@
       "title": "Northgard",
       "platform": "Mobile",
       "originalPrice": "$9.99",
-      "link": "https://store.epicgames.com/mobile",
+      "link": "https://www.gamerpower.com/open/northgard-mobile-giveaway",
       "category": "Mobile",
       "expiryDate": "2026-06-04T23:59:00.000Z",
       "imageUrl": "https://www.gamerpower.com/offers/1/6a185cc43a9e0.jpg"
