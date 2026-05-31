@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-31T14:47:09.880Z",
+  "lastUpdated": "2026-05-31T16:00:51.962Z",
   "deals": [
     {
       "title": "LONESTAR",
@@ -101,15 +101,6 @@
       "category": "Game",
       "expiryDate": "2026-06-01T19:54:00.000Z",
       "imageUrl": "https://img.itch.zone/aW1nLzIwMzIyOTU4LnBuZw==/315x250%23c/9PMidy.png"
-    },
-    {
-      "title": "Rose and Cross",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://zv-games.itch.io/roseandcross",
-      "category": "Game",
-      "expiryDate": "2026-05-31T15:18:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI0MjYyNzA4LnBuZw==/315x250%23c/r0UrdV.png"
     },
     {
       "title": "Terminal Descent",
@@ -265,10 +256,19 @@
       "imageUrl": "https://img.itch.zone/aW1nLzIyNDYzNTk0LnBuZw==/315x250%23c/bmFhXb.png"
     },
     {
+      "title": "ChoronosCityAİDetective",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://gamebuegar.itch.io/choronoscityadetective",
+      "category": "Game",
+      "expiryDate": "2026-06-01T13:55:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzI2Mzg0OTA1LnBuZw==/315x250%23c/8y2Wow.png"
+    },
+    {
       "title": "Moonrise Fall",
       "platform": "Steam",
       "originalPrice": "$9.99",
-      "link": "https://www.gamerpower.com/open/moonrise-fall-steam-giveaway",
+      "link": "https://store.steampowered.com/app/1035110/Moonrise_Fall",
       "category": "Game",
       "expiryDate": "2026-06-02T23:59:00.000Z",
       "imageUrl": "https://www.gamerpower.com/offers/1/6a1b24ffbbc52.jpg"
@@ -277,7 +277,7 @@
       "title": "IQ Under Construction",
       "platform": "Steam",
       "originalPrice": "$2.99",
-      "link": "https://www.gamerpower.com/open/iq-under-construction-steam-giveaway",
+      "link": "https://store.steampowered.com/app/3771740/IQ_Under_Construction",
       "category": "Game",
       "expiryDate": "2026-06-01T23:59:00.000Z",
       "imageUrl": "https://www.gamerpower.com/offers/1/6a1b241f224c6.jpg"
@@ -286,7 +286,7 @@
       "title": "Bunny Guys!",
       "platform": "Epic Games",
       "originalPrice": "$4.99",
-      "link": "https://www.gamerpower.com/open/bunny-guys-epic-games-giveaway",
+      "link": "https://store.epicgames.com/p/bunny-guys-b325b1",
       "category": "Game",
       "expiryDate": "2026-06-05T23:59:00.000Z",
       "imageUrl": "https://www.gamerpower.com/offers/1/6a199f7d977ec.jpg"
@@ -295,7 +295,7 @@
       "title": "Drift86",
       "platform": "Steam",
       "originalPrice": "$1.99",
-      "link": "https://www.gamerpower.com/open/drift86-steam-giveaway",
+      "link": "https://store.steampowered.com/app/1070580/Drift86",
       "category": "Game",
       "expiryDate": "2026-06-03T23:59:00.000Z",
       "imageUrl": "https://www.gamerpower.com/offers/1/6a18680e56754.jpg"
@@ -304,7 +304,7 @@
       "title": "Northgard",
       "platform": "Mobile",
       "originalPrice": "$9.99",
-      "link": "https://www.gamerpower.com/open/northgard-mobile-giveaway",
+      "link": "https://store.epicgames.com/mobile",
       "category": "Mobile",
       "expiryDate": "2026-06-04T23:59:00.000Z",
       "imageUrl": "https://www.gamerpower.com/offers/1/6a185cc43a9e0.jpg"
