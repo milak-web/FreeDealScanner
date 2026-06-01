@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-01T20:52:05.412Z",
+  "lastUpdated": "2026-06-01T22:57:54.416Z",
   "deals": [
     {
       "title": "LONESTAR",
@@ -49,6 +49,15 @@
       "imageUrl": "https://img.itch.zone/aW1nLzI2NzE4MTY2LnBuZw==/315x250%23c/5gHhAZ.png"
     },
     {
+      "title": "Lord of Chaos",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://hexnut-studios.itch.io/lord-of-chaos",
+      "category": "Game",
+      "expiryDate": "2026-06-04T17:00:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzI3MDc3Njg2LnBuZw==/315x250%23c/H8FO0W.png"
+    },
+    {
       "title": "Terminal Descent",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -76,15 +85,6 @@
       "imageUrl": "https://img.itch.zone/aW1nLzI2MTMzMDc4LnBuZw==/315x250%23c/9Vbt7e.png"
     },
     {
-      "title": "Lord of Chaos",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://hexnut-studios.itch.io/lord-of-chaos",
-      "category": "Game",
-      "expiryDate": "2026-06-04T17:00:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI3MDc3Njg2LnBuZw==/315x250%23c/H8FO0W.png"
-    },
-    {
       "title": "THE MIDNIGHT BUS",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -92,24 +92,6 @@
       "category": "Game",
       "expiryDate": "2026-06-03T20:40:00.000Z",
       "imageUrl": "https://img.itch.zone/aW1nLzE2NzQ5ODExLnBuZw==/315x250%23c/BXy8h%2F.png"
-    },
-    {
-      "title": "Gamers Club Repeat",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://s-xavier-uy.itch.io/gamers-club-repeat",
-      "category": "Game",
-      "expiryDate": "2026-06-12T02:37:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI3MTA2MTMyLnBuZw==/315x250%23c/mdKj0%2F.png"
-    },
-    {
-      "title": "Fractured: The Cast",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://fenixapple.itch.io/fractured",
-      "category": "Game",
-      "expiryDate": "2026-06-08T11:35:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI2MTMzMDc0LnBuZw==/315x250%23c/hrUHTd.png"
     },
     {
       "title": "Backrooms Crawlers",
@@ -121,6 +103,24 @@
       "imageUrl": "https://img.itch.zone/aW1nLzI3MTcwMzA2LnBuZw==/315x250%23c/Zd2zRm.png"
     },
     {
+      "title": "Fractured: The Cast",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://fenixapple.itch.io/fractured",
+      "category": "Game",
+      "expiryDate": "2026-06-08T11:35:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzI2MTMzMDc0LnBuZw==/315x250%23c/hrUHTd.png"
+    },
+    {
+      "title": "Gamers Club Repeat",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://s-xavier-uy.itch.io/gamers-club-repeat",
+      "category": "Game",
+      "expiryDate": "2026-06-12T02:37:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzI3MTA2MTMyLnBuZw==/315x250%23c/mdKj0%2F.png"
+    },
+    {
       "title": "Wasteland Alone",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -128,6 +128,15 @@
       "category": "Game",
       "expiryDate": "2026-06-26T23:23:00.000Z",
       "imageUrl": "https://img.itch.zone/aW1nLzI0ODUxMTkwLnBuZw==/315x250%23c/yVjMg0.png"
+    },
+    {
+      "title": "Ashioto Kyōfu (FOOTSTEPS TERROR)",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://aspsyxia.itch.io/ashioto-kyofu",
+      "category": "Game",
+      "expiryDate": "2026-06-15T14:07:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzI3MTUxMjEyLnBuZw==/315x250%23c/69zG8U.png"
     },
     {
       "title": "Sonambula",
@@ -157,15 +166,6 @@
       "imageUrl": "https://img.itch.zone/aW1nLzMwOTM4ODYucG5n/315x250%23c/6YLlGM.png"
     },
     {
-      "title": "Violetti Goottii",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://thewgreen.itch.io/violetti-goottii",
-      "category": "Game",
-      "expiryDate": "2026-06-10T20:53:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzY3MTU4NDUucG5n/315x250%23c/nT6ruI.png"
-    },
-    {
       "title": "Calmed by the Dark Aftermath",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -175,13 +175,22 @@
       "imageUrl": "https://img.itch.zone/aW1nLzM5OTA0MTYucG5n/315x250%23c/hFXacP.png"
     },
     {
-      "title": "Ashioto Kyōfu (FOOTSTEPS TERROR)",
+      "title": "Violetti Goottii",
       "platform": "Itch.io",
       "originalPrice": "N/A",
-      "link": "https://aspsyxia.itch.io/ashioto-kyofu",
+      "link": "https://thewgreen.itch.io/violetti-goottii",
       "category": "Game",
-      "expiryDate": "2026-06-15T14:07:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI3MTUxMjEyLnBuZw==/315x250%23c/69zG8U.png"
+      "expiryDate": "2026-06-10T20:53:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzY3MTU4NDUucG5n/315x250%23c/nT6ruI.png"
+    },
+    {
+      "title": "Five Nights at Freddy’s",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://leonardinoska.itch.io/five-nights-at-freddys",
+      "category": "Game",
+      "expiryDate": "2026-06-07T20:43:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzI1NDc3ODM4LmpwZw==/315x250%23c/5iQLSD.jpg"
     },
     {
       "title": "Project: Reborn - Extraction",
@@ -193,13 +202,13 @@
       "imageUrl": "https://img.itch.zone/aW1nLzI3MzA0NDEzLmpwZw==/315x250%23c/H2HFYX.jpg"
     },
     {
-      "title": "Five Nights at Freddy’s",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://leonardinoska.itch.io/five-nights-at-freddys",
+      "title": "Tell Me Why",
+      "platform": "Steam",
+      "originalPrice": "$19.99",
+      "link": "https://store.steampowered.com/agecheck/app/1180660",
       "category": "Game",
-      "expiryDate": "2026-06-07T20:43:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI1NDc3ODM4LmpwZw==/315x250%23c/5iQLSD.jpg"
+      "expiryDate": "2026-07-01T23:59:59.000Z",
+      "imageUrl": "https://www.gamerpower.com/offers/1/6478b9dcae7be.jpg"
     },
     {
       "title": "Gravity Circuit",
