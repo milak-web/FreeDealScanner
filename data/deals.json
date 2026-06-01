@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-01T00:00:27.864Z",
+  "lastUpdated": "2026-06-01T05:22:34.319Z",
   "deals": [
     {
       "title": "LONESTAR",
@@ -67,15 +67,6 @@
       "imageUrl": "https://img.itch.zone/aW1nLzI1ODYxNjIyLnBuZw==/315x250%23c/5xN9NN.png"
     },
     {
-      "title": "Larger Than Light",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://1010meha.itch.io/larger-than-light",
-      "category": "Game",
-      "expiryDate": "2026-06-01T00:04:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzU5NTQ1MzAuanBn/315x250%23c/jN76fr.jpg"
-    },
-    {
       "title": "Pigeon West: Call Of Gun. ISEKAI",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -112,15 +103,6 @@
       "imageUrl": "https://img.itch.zone/aW1nLzIxODA4NzExLnBuZw==/315x250%23c/WprMWe.png"
     },
     {
-      "title": "THE MIDNIGHT BUS",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://itandfeel.itch.io/the-midnight-bus",
-      "category": "Game",
-      "expiryDate": "2026-06-03T20:40:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzE2NzQ5ODExLnBuZw==/315x250%23c/BXy8h%2F.png"
-    },
-    {
       "title": "Fractured: Roadwood Stop",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -128,6 +110,15 @@
       "category": "Game",
       "expiryDate": "2026-06-08T11:35:00.000Z",
       "imageUrl": "https://img.itch.zone/aW1nLzI2MTMzMDc4LnBuZw==/315x250%23c/9Vbt7e.png"
+    },
+    {
+      "title": "THE MIDNIGHT BUS",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://itandfeel.itch.io/the-midnight-bus",
+      "category": "Game",
+      "expiryDate": "2026-06-03T20:40:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzE2NzQ5ODExLnBuZw==/315x250%23c/BXy8h%2F.png"
     },
     {
       "title": "Lord of Chaos",
@@ -139,13 +130,13 @@
       "imageUrl": "https://img.itch.zone/aW1nLzI3MDc3Njg2LnBuZw==/315x250%23c/H8FO0W.png"
     },
     {
-      "title": "Wasteland Alone",
+      "title": "Gamers Club Repeat",
       "platform": "Itch.io",
       "originalPrice": "N/A",
-      "link": "https://vladislive-dev.itch.io/wasteland-alone",
+      "link": "https://s-xavier-uy.itch.io/gamers-club-repeat",
       "category": "Game",
-      "expiryDate": "2026-06-26T23:23:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI0ODUxMTkwLnBuZw==/315x250%23c/yVjMg0.png"
+      "expiryDate": "2026-06-12T02:37:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzI3MTA2MTMyLnBuZw==/315x250%23c/mdKj0%2F.png"
     },
     {
       "title": "Fractured: The Cast",
@@ -157,13 +148,13 @@
       "imageUrl": "https://img.itch.zone/aW1nLzI2MTMzMDc0LnBuZw==/315x250%23c/hrUHTd.png"
     },
     {
-      "title": "Gamers Club Repeat",
+      "title": "Wasteland Alone",
       "platform": "Itch.io",
       "originalPrice": "N/A",
-      "link": "https://s-xavier-uy.itch.io/gamers-club-repeat",
+      "link": "https://vladislive-dev.itch.io/wasteland-alone",
       "category": "Game",
-      "expiryDate": "2026-06-12T02:37:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI3MTA2MTMyLnBuZw==/315x250%23c/mdKj0%2F.png"
+      "expiryDate": "2026-06-26T23:23:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzI0ODUxMTkwLnBuZw==/315x250%23c/yVjMg0.png"
     },
     {
       "title": "Liminal Lane",
@@ -193,6 +184,15 @@
       "imageUrl": "https://img.itch.zone/aW1nLzI2NjA3OTM3LnBuZw==/315x250%23c/1AiyLq.png"
     },
     {
+      "title": "DungeonDex 1.4",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://northline-studio.itch.io/dungeondex",
+      "category": "Game",
+      "expiryDate": "2026-06-01T20:33:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzI3NTQ0NDE3LnBuZw==/315x250%23c/5g2Ivq.png"
+    },
+    {
       "title": "Violetti Goottii",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -202,13 +202,22 @@
       "imageUrl": "https://img.itch.zone/aW1nLzY3MTU4NDUucG5n/315x250%23c/nT6ruI.png"
     },
     {
-      "title": "ChoronosCityAİDetective",
+      "title": "Calmed by the Dark Neon",
       "platform": "Itch.io",
       "originalPrice": "N/A",
-      "link": "https://gamebuegar.itch.io/choronoscityadetective",
+      "link": "https://calmed-by-the-dark-games.itch.io/calmed-by-the-dark-neon",
       "category": "Game",
-      "expiryDate": "2026-06-01T13:55:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI2Mzg0OTA1LnBuZw==/315x250%23c/8y2Wow.png"
+      "expiryDate": "2026-06-29T03:00:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzMwOTM4ODYucG5n/315x250%23c/6YLlGM.png"
+    },
+    {
+      "title": "Calmed by the Dark Aftermath",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://calmed-by-the-dark-games.itch.io/calmed-by-the-dark-aftermath",
+      "category": "Game",
+      "expiryDate": "2026-06-29T03:00:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzM5OTA0MTYucG5n/315x250%23c/hFXacP.png"
     },
     {
       "title": "BoxShift (Offical)",
@@ -229,31 +238,13 @@
       "imageUrl": "https://img.itch.zone/aW1nLzI1NDc3ODM4LmpwZw==/315x250%23c/5iQLSD.jpg"
     },
     {
-      "title": "DungeonDex 1.4",
+      "title": "ChoronosCityAİDetective",
       "platform": "Itch.io",
       "originalPrice": "N/A",
-      "link": "https://northline-studio.itch.io/dungeondex",
+      "link": "https://gamebuegar.itch.io/choronoscityadetective",
       "category": "Game",
-      "expiryDate": "2026-06-01T20:33:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI3NTQ0NDE3LnBuZw==/315x250%23c/5g2Ivq.png"
-    },
-    {
-      "title": "Calmed by the Dark Aftermath",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://calmed-by-the-dark-games.itch.io/calmed-by-the-dark-aftermath",
-      "category": "Game",
-      "expiryDate": "2026-06-29T03:00:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzM5OTA0MTYucG5n/315x250%23c/hFXacP.png"
-    },
-    {
-      "title": "Calmed by the Dark Neon",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://calmed-by-the-dark-games.itch.io/calmed-by-the-dark-neon",
-      "category": "Game",
-      "expiryDate": "2026-06-29T03:00:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzMwOTM4ODYucG5n/315x250%23c/6YLlGM.png"
+      "expiryDate": "2026-06-01T13:55:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzI2Mzg0OTA1LnBuZw==/315x250%23c/8y2Wow.png"
     },
     {
       "title": "Moonrise Fall",
