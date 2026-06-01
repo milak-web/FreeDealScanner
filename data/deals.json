@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-01T05:22:34.319Z",
+  "lastUpdated": "2026-06-01T10:36:00.746Z",
   "deals": [
     {
       "title": "LONESTAR",
@@ -112,15 +112,6 @@
       "imageUrl": "https://img.itch.zone/aW1nLzI2MTMzMDc4LnBuZw==/315x250%23c/9Vbt7e.png"
     },
     {
-      "title": "THE MIDNIGHT BUS",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://itandfeel.itch.io/the-midnight-bus",
-      "category": "Game",
-      "expiryDate": "2026-06-03T20:40:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzE2NzQ5ODExLnBuZw==/315x250%23c/BXy8h%2F.png"
-    },
-    {
       "title": "Lord of Chaos",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -128,6 +119,15 @@
       "category": "Game",
       "expiryDate": "2026-06-03T17:00:00.000Z",
       "imageUrl": "https://img.itch.zone/aW1nLzI3MDc3Njg2LnBuZw==/315x250%23c/H8FO0W.png"
+    },
+    {
+      "title": "THE MIDNIGHT BUS",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://itandfeel.itch.io/the-midnight-bus",
+      "category": "Game",
+      "expiryDate": "2026-06-03T20:40:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzE2NzQ5ODExLnBuZw==/315x250%23c/BXy8h%2F.png"
     },
     {
       "title": "Gamers Club Repeat",
@@ -202,6 +202,15 @@
       "imageUrl": "https://img.itch.zone/aW1nLzY3MTU4NDUucG5n/315x250%23c/nT6ruI.png"
     },
     {
+      "title": "ChoronosCityAİDetective",
+      "platform": "Itch.io",
+      "originalPrice": "N/A",
+      "link": "https://gamebuegar.itch.io/choronoscityadetective",
+      "category": "Game",
+      "expiryDate": "2026-06-01T13:55:00.000Z",
+      "imageUrl": "https://img.itch.zone/aW1nLzI2Mzg0OTA1LnBuZw==/315x250%23c/8y2Wow.png"
+    },
+    {
       "title": "Calmed by the Dark Neon",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -220,15 +229,6 @@
       "imageUrl": "https://img.itch.zone/aW1nLzM5OTA0MTYucG5n/315x250%23c/hFXacP.png"
     },
     {
-      "title": "BoxShift (Offical)",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://demirde1.itch.io/boxshift",
-      "category": "Game",
-      "expiryDate": "2026-06-01T06:25:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI0ODQ2NTMyLnBuZw==/315x250%23c/MZTd7Z.png"
-    },
-    {
       "title": "Five Nights at Freddy’s",
       "platform": "Itch.io",
       "originalPrice": "N/A",
@@ -236,15 +236,6 @@
       "category": "Game",
       "expiryDate": "2026-06-07T20:43:00.000Z",
       "imageUrl": "https://img.itch.zone/aW1nLzI1NDc3ODM4LmpwZw==/315x250%23c/5iQLSD.jpg"
-    },
-    {
-      "title": "ChoronosCityAİDetective",
-      "platform": "Itch.io",
-      "originalPrice": "N/A",
-      "link": "https://gamebuegar.itch.io/choronoscityadetective",
-      "category": "Game",
-      "expiryDate": "2026-06-01T13:55:00.000Z",
-      "imageUrl": "https://img.itch.zone/aW1nLzI2Mzg0OTA1LnBuZw==/315x250%23c/8y2Wow.png"
     },
     {
       "title": "Moonrise Fall",
